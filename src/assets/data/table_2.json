@@ -1,0 +1,56 @@
+[
+    {
+        "material_name": "Material",
+        "unlocked_at": "Unlocking Requirements",
+        "production_time": "Production Time",
+        "msp": "Max Selling Price",
+        "spm": "Simoleons per Minute",
+        "produced_in": "Produced in",
+        "used_in": "Used in these items"
+    },
+    {
+        "material_name": "Crude Oil",
+        "unlocked_at": "Level 25, After Unlocking Cactus Canyon",
+        "production_time": "6 minutes",
+        "msp": "30 Simoleons",
+        "spm": "5",
+        "produced_in": "Oil Plant",
+        "used_in": "Motor Oil,  Car Tire"
+    },
+    {
+        "material_name": "Recycled Fabric",
+        "unlocked_at": "Level 25, After Unlocking Green Valley",
+        "production_time": "6 minutes",
+        "msp": "30 Simoleons",
+        "spm": "5",
+        "produced_in": "Green Factory",
+        "used_in": "Reusable Bag,  Ecological Shoes,  Yoga Mat"
+    },
+    {
+        "material_name": "Silk",
+        "unlocked_at": "Level 25, After Unlocking Limestone Cliffs",
+        "production_time": "6 minutes",
+        "msp": "30 Simoleons",
+        "spm": "5",
+        "produced_in": "Mulberry Grove",
+        "used_in": "String,  Fan,  Robe"
+    },
+    {
+        "material_name": "Coconut",
+        "unlocked_at": "Level 25, After Unlocking Sunny Isles",
+        "production_time": "6 minutes",
+        "msp": "30 Simoleons",
+        "spm": "5",
+        "produced_in": "Coconut Farm",
+        "used_in": "Coconut Oil,  Tropical Drink"
+    },
+    {
+        "material_name": "Fish",
+        "unlocked_at": "Level 25, After Unlocking Frosty Fjords",
+        "production_time": "6 minutes",
+        "msp": "30 Simoleons",
+        "spm": "5",
+        "produced_in": "Fishery",
+        "used_in": "Canned Fish,  Fish Soup,  Salmon Sandwich"
+    }
+]

@@ -1,0 +1,706 @@
+[
+    {
+        "item": "Item",
+        "unlocked_at": "Unlocked At",
+        "mat_used": "Materials Used",
+        "production_time": "Production Time(For 3  Shop)",
+        "msp": "Max Selling Price",
+        "spm": "Simoleons per Minute",
+        "produced_in": "Produced in",
+        "used_in": "Used in these Items"
+    },
+    {
+        "Item": "Nails",
+        "unlocked_at": "Level 1",
+        "mat_used": {
+            "Metal": "2"
+        },
+        "production_time": "4 minutes",
+        "msp": "80 Simoleons",
+        "spm": "20 Simoleons",
+        "produced_in": "Building Supplies Store",
+        "used_in": "Chairs,  Tables,  Car Tire,  Engine"
+    },
+    {
+        "Item": "Planks",
+        "unlocked_at": "Level 6",
+        "mat_used": {
+            "Wood": "2"
+        },
+        "production_time": "24 minutes",
+        "msp": "120 Simoleons",
+        "spm": "5 Simoleons",
+        "produced_in": "Building Supplies Store",
+        "used_in": "Tables,  Cupboard,  Ladder,  Garden Furniture"
+    },
+    {
+        "Item": "Bricks",
+        "unlocked_at": "Level 13",
+        "mat_used": {
+            "Minerals": "2"
+        },
+        "production_time": "16 minutes",
+        "msp": "190 Simoleons",
+        "spm": "11.87 Simoleons",
+        "produced_in": "Building Supplies Store",
+        "used_in": "Firepit"
+    },
+    {
+        "Item": "Cement",
+        "unlocked_at": "Level 14",
+        "mat_used": {
+            "Minerals": "2",
+            "Chemicals": "2"
+        },
+        "production_time": "40 minutes",
+        "msp": "440 Simoleons",
+        "spm": "11 Simoleons",
+        "produced_in": "Building Supplies Store",
+        "used_in": "Firepit,  Garden Gnomes"
+    },
+    {
+        "Item": "Glue",
+        "unlocked_at": "Level 15",
+        "mat_used": {
+            "Plastic": "1",
+            "Chemicals": "1"
+        },
+        "production_time": "48 minutes",
+        "msp": "440 Simoleons",
+        "spm": "9.16 Simoleons",
+        "produced_in": "Building Supplies Store",
+        "used_in": "Garden Gnomes,  Couch,  Shoes,  Business Suit,  Ecological Shoes,  Car Tire,  Fan"
+    },
+    {
+        "Item": "Paint",
+        "unlocked_at": "Level 16",
+        "mat_used": {
+            "Metal": "2",
+            "Minerals": "2",
+            "Chemicals": "2"
+        },
+        "production_time": "48 minutes",
+        "msp": "320 Simoleons",
+        "spm": "6.66 Simoleons",
+        "produced_in": "Building Supplies Store",
+        "used_in": "Lawnmower,  Cupboard,  Yoga Mat,  Robe"
+    },
+    {
+        "Item": "Hammer",
+        "unlocked_at": "Level 4",
+        "mat_used": {
+            "Metal": "1",
+            "Wood": "1"
+        },
+        "production_time": "11 min 12 secs",
+        "msp": "90 Simoleons",
+        "spm": "8.03 Simoleons",
+        "produced_in": "Hardware Store",
+        "used_in": "Chairs,  Tables"
+    },
+    {
+        "Item": "Measuring Tape",
+        "unlocked_at": "Level 6",
+        "mat_used": {
+            "Metal": "1",
+            "Plastic": "1"
+        },
+        "production_time": "16 minutes",
+        "msp": "110 Simoleons",
+        "spm": "6.87 Simoleons",
+        "produced_in": "Hardware Store",
+        "used_in": "Home Textiles,  Cap,  Business Suits,  Backpack,  Ecological Shoes"
+    },
+    {
+        "Item": "Shovel",
+        "unlocked_at": "Level 9",
+        "mat_used": {
+            "Metal": "1",
+            "Wood": "1",
+            "Plastic": "1"
+        },
+        "production_time": "24 minutes",
+        "msp": "150 Simoleons",
+        "spm": "6.25 Simoleons",
+        "produced_in": "Hardware Store",
+        "used_in": "Grass,  Tree Saplings,  Fire Pit"
+    },
+    {
+        "Item": "Cooking Utensils",
+        "unlocked_at": "Level 17",
+        "mat_used": {
+            "Metal": "2",
+            "Wood": "2",
+            "Plastic": "2"
+        },
+        "production_time": "36 minutes",
+        "msp": "250 Simoleons",
+        "spm": "6.94 Simoleons",
+        "produced_in": "Hardware Store",
+        "used_in": "BBQ Grill,  Fish Soup"
+    },
+    {
+        "Item": "Ladder",
+        "unlocked_at": "Level 20",
+        "mat_used": {
+            "Planks": "2",
+            "Metal": "2"
+        },
+        "production_time": "48 minutes",
+        "msp": "420 Simoleons",
+        "spm": "8.75 Simoleons",
+        "produced_in": "Hardware Store",
+        "used_in": ""
+    },
+    {
+        "Item": "Drill",
+        "unlocked_at": "Level 30",
+        "mat_used": {
+            "Metal": "2",
+            "Plastic": "2",
+            "Electrical Components": "2"
+        },
+        "production_time": "96 minutes",
+        "msp": "590 Simoleons",
+        "spm": "6.14 Simoleons",
+        "produced_in": "Hardware Store",
+        "used_in": "Couch,  Engine"
+    },
+    {
+        "Item": "Vegetables",
+        "unlocked_at": "Level 8",
+        "mat_used": {
+            "Seeds": "2"
+        },
+        "production_time": "16 minutes",
+        "msp": "160 Simoleons",
+        "spm": "10 Simoleons",
+        "produced_in": "Farmer's Market",
+        "used_in": "Green Smoothie,  Cheese Fries,  Fish Soup"
+    },
+    {
+        "Item": "Flour Bag",
+        "unlocked_at": "Level 17",
+        "mat_used": {
+            "Seeds": "2",
+            "Textiles": "2"
+        },
+        "production_time": "24 minutes",
+        "msp": "570 Simoleons",
+        "spm": "23.75 Simoleons",
+        "produced_in": "Farmer's Market",
+        "used_in": "Donuts,  Bread Roll,  Cherry Cheesecake,  Pizza"
+    },
+    {
+        "Item": "Fruit and Berries",
+        "unlocked_at": "Level 18",
+        "mat_used": {
+            "Seeds": "2",
+            "Treesapling": "2"
+        },
+        "production_time": "72 minutes",
+        "msp": "730 Simoleons",
+        "spm": "10.13 Simoleons",
+        "produced_in": "Farmer's Market",
+        "used_in": "Green Smoothie,  Cherry Cheesecake,  Frozen Yogurt,  Lemonade Bottle,  Tropical Drink"
+    },
+    {
+        "Item": "Cream",
+        "unlocked_at": "Level 23",
+        "mat_used": {
+            "Animalfeed": "1"
+        },
+        "production_time": "60 minutes",
+        "msp": "440 Simoleons",
+        "spm": "7.33 Simoleons",
+        "produced_in": "Farmer's Market",
+        "used_in": "Bread Roll,  Frozen Yogurt,  Coffee,  Ice Cream Sandwich"
+    },
+    {
+        "Item": "Corn",
+        "unlocked_at": "Level 24",
+        "mat_used": {
+            "Minerals": "4",
+            "Seeds": "4"
+        },
+        "production_time": "48 minutes",
+        "msp": "280 Simoleons",
+        "spm": "5.84 Simoleons",
+        "produced_in": "Farmer's Market",
+        "used_in": "Popcorn"
+    },
+    {
+        "Item": "Cheese",
+        "unlocked_at": "Level 26",
+        "mat_used": {
+            "Animalfeed": "2"
+        },
+        "production_time": "84 minutes",
+        "msp": "660 Simoleons",
+        "spm": "7.85 Simoleons",
+        "produced_in": "Farmer's Market",
+        "used_in": "Cherry Cheesecake,  Pizza,  Cheese Fries"
+    },
+    {
+        "Item": "Beef",
+        "unlocked_at": "Level 27",
+        "mat_used": {
+            "Animalfeed": "3"
+        },
+        "production_time": "120 minutes",
+        "msp": "860 Simoleons",
+        "spm": "7.16 Simoleons",
+        "produced_in": "Farmer's Market",
+        "used_in": "Pizza,  Burger"
+    },
+    {
+        "Item": "Chair",
+        "unlocked_at": "Level 10",
+        "mat_used": {
+            "Wood": "2",
+            "Nails": "2",
+            "Hammer": "2"
+        },
+        "production_time": "16 minutes",
+        "msp": "300 Simoleons",
+        "spm": "18.75 Simoleons",
+        "produced_in": "Furniture Store",
+        "used_in": ""
+    },
+    {
+        "Item": "Table",
+        "unlocked_at": "Level 16",
+        "mat_used": {
+            "Planks": "1",
+            "Nails": "1",
+            "Hammer": "1"
+        },
+        "production_time": "24 minutes",
+        "msp": "500 Simoleons",
+        "spm": "20.83 Simoleons",
+        "produced_in": "Furniture Store",
+        "used_in": ""
+    },
+    {
+        "Item": "Home Textile",
+        "unlocked_at": "Level 25",
+        "mat_used": {
+            "Textiles": "2",
+            "Measuringtape": "2"
+        },
+        "production_time": "60 minutes",
+        "msp": "610 Simoleons",
+        "spm": "10.16 Simoleons",
+        "produced_in": "Furniture Store",
+        "used_in": "Yoga Mat,  Robe"
+    },
+    {
+        "Item": "Cupboard",
+        "unlocked_at": "Level 26",
+        "mat_used": {
+            "Planks": "2",
+            "Glass": "2",
+            "Paintbucket": "2"
+        },
+        "production_time": "36 minutes",
+        "msp": "900 Simoleons",
+        "spm": "25 Simoleons",
+        "produced_in": "Furniture Store",
+        "used_in": ""
+    },
+    {
+        "Item": "Couch",
+        "unlocked_at": "Level 33",
+        "mat_used": {
+            "Textiles": "3",
+            "Drill": "3",
+            "Glue": "3"
+        },
+        "production_time": "120 minutes",
+        "msp": "1,810 Simoleons",
+        "spm": "15.08 Simoleons",
+        "produced_in": "Furniture Store",
+        "used_in": ""
+    },
+    {
+        "Item": "Grass",
+        "unlocked_at": "Level 14",
+        "mat_used": {
+            "Seeds": "1",
+            "Shovel": "1"
+        },
+        "production_time": "24 minutes",
+        "msp": "310 Simoleons",
+        "spm": "12.91 Simoleons",
+        "produced_in": "Gardening Supplies",
+        "used_in": ""
+    },
+    {
+        "Item": "Tree Sapling",
+        "unlocked_at": "Level 16",
+        "mat_used": {
+            "Seeds": "2",
+            "Shovel": "2"
+        },
+        "production_time": "72 minutes",
+        "msp": "420 Simoleons",
+        "spm": "5.83 Simoleons",
+        "produced_in": "Gardening Supplies",
+        "used_in": "Fruit and Berries"
+    },
+    {
+        "Item": "Garden Furniture",
+        "unlocked_at": "Level 21",
+        "mat_used": {
+            "Planks": "2",
+            "Plastic": "2",
+            "Textiles": "2"
+        },
+        "production_time": "108 minutes",
+        "msp": "820 Simoleons",
+        "spm": "7.59 Simoleons",
+        "produced_in": "Gardening Supplies",
+        "used_in": ""
+    },
+    {
+        "Item": "Lawn Mower",
+        "unlocked_at": "",
+        "mat_used": {
+            "Metal": "3",
+            "Paintbucket": "3",
+            "Electrical Components": "3"
+        },
+        "production_time": "96 minutes",
+        "msp": "840 Simoleons",
+        "spm": "8.75 Simoleons",
+        "produced_in": "Gardening Supplies",
+        "used_in": ""
+    },
+    {
+        "Item": "Fire Pit",
+        "unlocked_at": "Level 28",
+        "mat_used": {
+            "Bricks": "2",
+            "Shovel": "2",
+            "Cement": "2"
+        },
+        "production_time": "192 minutes",
+        "msp": "1,740 Simoleons",
+        "spm": "9.06 Simoleons",
+        "produced_in": "Gardening Supplies",
+        "used_in": ""
+    },
+    {
+        "Item": "Garden Gnome",
+        "unlocked_at": "Level 34",
+        "mat_used": {
+            "Cement": "2",
+            "Glue": "2"
+        },
+        "production_time": "72 minutes",
+        "msp": "1,600 Simoleons",
+        "spm": "22.22 Simoleons",
+        "produced_in": "Gardening Supplies",
+        "used_in": ""
+    },
+    {
+        "Item": "Donuts",
+        "unlocked_at": "Level 18",
+        "mat_used": {
+            "Flour Bag": "1",
+            "Sugarspices": "1"
+        },
+        "production_time": "36 minutes",
+        "msp": "950 Simoleons",
+        "spm": "26.38 Simoleons",
+        "produced_in": "Donut Shop",
+        "used_in": ""
+    },
+    {
+        "Item": "Green Smoothie",
+        "unlocked_at": "Level 20",
+        "mat_used": {
+            "Vegetables": "1",
+            "Fruit and Berries ": "1"
+        },
+        "production_time": "24 minutes",
+        "msp": "1,150 Simoleons",
+        "spm": "47.91 Simoleons",
+        "produced_in": "Donut Shop",
+        "used_in": ""
+    },
+    {
+        "Item": "Bread Roll",
+        "unlocked_at": "Level 25",
+        "mat_used": {
+            "Flour Bag": "2",
+            "Cream": "2"
+        },
+        "production_time": "48 minutes",
+        "msp": "1,840 Simoleons",
+        "spm": "38.33 Simoleons",
+        "produced_in": "Donut Shop",
+        "used_in": "Ice Cream Sandwich,  Burgers,  Salmon Sandwich"
+    },
+    {
+        "Item": "Cherry Cheesecake",
+        "unlocked_at": "Level 27",
+        "mat_used": {
+            "Flour Bag": "1",
+            "Fruit and Berries ": "1",
+            "Cheese": "1"
+        },
+        "production_time": "72 minutes",
+        "msp": "2,240 Simoleons",
+        "spm": "31.11 Simoleons",
+        "produced_in": "Donut Shop",
+        "used_in": ""
+    },
+    {
+        "Item": "Frozen Yogurt",
+        "unlocked_at": "Level 28",
+        "mat_used": {
+            "Fruit and Berries ": "1",
+            "Cream": "1",
+            "Sugarspices": "1"
+        },
+        "production_time": "192 minutes",
+        "msp": "1,750 Simoleons",
+        "spm": "9.11 Simoleons",
+        "produced_in": "Donut Shop",
+        "used_in": ""
+    },
+    {
+        "Item": "Coffee",
+        "unlocked_at": "Level 33",
+        "mat_used": {
+            "Cream": "1",
+            "Seeds": "1",
+            "Sugarspices": "1"
+        },
+        "production_time": "48 minutes",
+        "msp": "750 Simoleons",
+        "spm": "15.62 Simoleons",
+        "produced_in": "Donut Shop",
+        "used_in": ""
+    },
+    {
+        "Item": "Cap",
+        "unlocked_at": "Level 19",
+        "mat_used": {
+            "Textiles": "2",
+            "Measuringtape": "2"
+        },
+        "production_time": "48 minutes",
+        "msp": "600 Simoleons",
+        "spm": "12.5 Simoleons",
+        "produced_in": "Fashion Store",
+        "used_in": ""
+    },
+    {
+        "Item": "Shoes",
+        "unlocked_at": "Level 21",
+        "mat_used": {
+            "Textiles": "2",
+            "Plastic": "2",
+            "Glue": "2"
+        },
+        "production_time": "60 minutes",
+        "msp": "980 Simoleons",
+        "spm": "16.33 Simoleons",
+        "produced_in": "Fashion Store",
+        "used_in": ""
+    },
+    {
+        "Item": "Watch",
+        "unlocked_at": "Level 22",
+        "mat_used": {
+            "Plastic": "2",
+            "Glass": "2",
+            "Chemicals": "2"
+        },
+        "production_time": "72 minutes",
+        "msp": "580 Simoleons",
+        "spm": "8.05 Simoleons",
+        "produced_in": "Fashion Store",
+        "used_in": ""
+    },
+    {
+        "Item": "Business Suits",
+        "unlocked_at": "Level 32",
+        "mat_used": {
+            "Textiles": "3",
+            "Measuringtape": "3",
+            "Glue": "3"
+        },
+        "production_time": "168 minutes",
+        "msp": "1,170 Simoleons",
+        "spm": "6.96 Simoleons",
+        "produced_in": "Fashion Store",
+        "used_in": ""
+    },
+    {
+        "Item": "Backpack",
+        "unlocked_at": "Level 34",
+        "mat_used": {
+            "Textiles": "2",
+            "Plastic": "2",
+            "Measuringtape": "2"
+        },
+        "production_time": "120 minutes",
+        "msp": "430 Simoleons",
+        "spm": "3.58 Simoleons",
+        "produced_in": "Fashion Store",
+        "used_in": ""
+    },
+    {
+        "Item": "Ice Cream Sandwich",
+        "unlocked_at": "Level 25",
+        "mat_used": {
+            "Breadroll": "1",
+            "Cream": "1"
+        },
+        "production_time": "11 min 12 secs",
+        "msp": "2,560 Simoleons",
+        "spm": "228.57 Simoleons",
+        "produced_in": "Fast Food Restaurant",
+        "used_in": ""
+    },
+    {
+        "Item": "Pizza",
+        "unlocked_at": "Level 28",
+        "mat_used": {
+            "Flour Bag": "1",
+            "Cheese": "1",
+            "Beef": "1"
+        },
+        "production_time": "19 min 12 secs",
+        "msp": "2,560 Simoleons",
+        "spm": "133.33 Simoleons",
+        "produced_in": "Fast Food Restaurant",
+        "used_in": ""
+    },
+    {
+        "Item": "Burger",
+        "unlocked_at": "Level 31",
+        "mat_used": {
+            "Beef": "1",
+            "Breadroll": "1",
+            "BBQ Grill": "1"
+        },
+        "production_time": "28 minutes",
+        "msp": "3,620 Simoleons",
+        "spm": "129.28 Simoleons",
+        "produced_in": "Fast Food Restaurant",
+        "used_in": ""
+    },
+    {
+        "Item": "Cheese Fries",
+        "unlocked_at": "Level 33",
+        "mat_used": {
+            "Vegetables": "1",
+            "Cheese": "1"
+        },
+        "production_time": "16 minutes",
+        "msp": "1,050 Simoleons",
+        "spm": "65.62 Simoleons",
+        "produced_in": "Fast Food Restaurant",
+        "used_in": ""
+    },
+    {
+        "Item": "Lemonade Bottle",
+        "unlocked_at": "Level 37",
+        "mat_used": {
+            "Glass": "2",
+            "Sugarspices": "2",
+            "Fruit and Berries ": "2"
+        },
+        "production_time": "48 minutes",
+        "msp": "1,690 Simoleons",
+        "spm": "35.20 Simoleons",
+        "produced_in": "Fast Food Restaurant",
+        "used_in": ""
+    },
+    {
+        "Item": "Popcorn",
+        "unlocked_at": "Level 43",
+        "mat_used": {
+            "Microwave Oven": "1",
+            "Corn": "1"
+        },
+        "production_time": "24 minutes",
+        "msp": "1,250 Simoleons",
+        "spm": "52.08 Simoleons",
+        "produced_in": "Fast Food Restaurant",
+        "used_in": ""
+    },
+    {
+        "Item": "BBQ Grill",
+        "unlocked_at": "Level 29",
+        "mat_used": {
+            "Metal": "3",
+            "Cooking Utensils": "3"
+        },
+        "production_time": "132 minutes",
+        "msp": "530 Simoleons",
+        "spm": "4.01 Simoleons",
+        "produced_in": "Home Appliances",
+        "used_in": "Burgers"
+    },
+    {
+        "Item": "Refrigerator",
+        "unlocked_at": "Level 35",
+        "mat_used": {
+            "Plastic": "2",
+            "Chemicals": "2",
+            "Electrical Components": "2"
+        },
+        "production_time": "168 minutes",
+        "msp": "1,060 Simoleons",
+        "spm": "6.30 Simoleons",
+        "produced_in": "Home Appliances",
+        "used_in": ""
+    },
+    {
+        "Item": "Lighting System",
+        "unlocked_at": "Level 36",
+        "mat_used": {
+            "Chemicals": "1",
+            "Electrical Components": "1",
+            "Glass": "1"
+        },
+        "production_time": "84 minutes",
+        "msp": "890 Simoleons",
+        "spm": "10.59 Simoleons",
+        "produced_in": "Home Appliances",
+        "used_in": ""
+    },
+    {
+        "Item": "TV",
+        "unlocked_at": "Level 38",
+        "mat_used": {
+            "Plastic": "2",
+            "Glass": "2",
+            "Electrical Components": "2"
+        },
+        "production_time": "120 minutes",
+        "msp": "1,280 Simoleons",
+        "spm": "10.66 Simoleons",
+        "produced_in": "Home Appliances",
+        "used_in": ""
+    },
+    {
+        "Item": "Microwave Oven",
+        "unlocked_at": "Level 42",
+        "mat_used": {
+            "Metal": "4",
+            "Glass": "4",
+            "Electrical Components": "4"
+        },
+        "production_time": "96 minutes",
+        "msp": "480 Simoleons",
+        "spm": "5 Simoleons",
+        "produced_in": "Home Appliances",
+        "used_in": "Popcorn"
+    }
+]

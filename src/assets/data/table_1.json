@@ -1,0 +1,98 @@
+[
+    {
+        "material_name": "Material",
+        "unlocked_at": "Unlocked At",
+        "production_time": "Production Time",
+        "msp": "Max Selling Price",
+        "spm": "Simoleons per Minute",
+        "used_in": "Used in these items"
+    },
+    {
+        "material_name": "Metal",
+        "unlocked_at": "Level 1",
+        "production_time": "1 minute",
+        "msp": "10 Simoleons",
+        "spm": "10",
+        "used_in": "Hammer,  Measuring Tape,  Shovel,  Cooking Utensils,  Ladder,  Drill,  Lawn Mower,  BBQ Grill,  Microwave Oven,  Nails,  Paint,  Canned Fish"
+    },
+    {
+        "material_name": "Wood",
+        "unlocked_at": "Level 2",
+        "production_time": "3 minutes",
+        "msp": "20 Simoleons",
+        "spm": "6.667",
+        "used_in": "Hammer,  Shovel,  Cooking Utensils,  Chair,  Planks,  Fan"
+    },
+    {
+        "material_name": "Plastic",
+        "unlocked_at": "Level 5",
+        "production_time": "9 minutes",
+        "msp": "25 Simoleons",
+        "spm": "2.778",
+        "used_in": "Measuring Tape,  Shovel,  Cooking Utensils,  Drill,  Garden Furniture,  Refrigerator,  TV,  Shoes,  Watch,  Backpack,  Glue"
+    },
+    {
+        "material_name": "Seeds",
+        "unlocked_at": "Level 7",
+        "production_time": "20 minutes",
+        "msp": "30 Simoleons",
+        "spm": "1.5",
+        "used_in": "Grass,  Tree Sapling,  Coffee,  Vegetables,  Flour Bag,  Fruit and Berries,  Corn"
+    },
+    {
+        "material_name": "Minerals",
+        "unlocked_at": "Level 11",
+        "production_time": "30 minutes",
+        "msp": "40 Simoleons",
+        "spm": "1.333",
+        "used_in": "Bricks,  Cement,  Paint,  Corn"
+    },
+    {
+        "material_name": "Chemicals",
+        "unlocked_at": "Level 13",
+        "production_time": "2 hours\/120 minutes",
+        "msp": "60 Simoleons",
+        "spm": "0.5",
+        "used_in": "Refrigerator,  Lighting System,  Watch,  Cement,  Glue,  Paint,  Face Cream"
+    },
+    {
+        "material_name": "Textiles",
+        "unlocked_at": "Level 15",
+        "production_time": "3 hours\/180 minutes",
+        "msp": "90 Simoleons",
+        "spm": "2",
+        "used_in": "Garden Furniture,  Home Textile,  Couch,  Cap,  Shoes,  Business Suit,  Backpack,  Flour Bag"
+    },
+    {
+        "material_name": "Sugar and Spices",
+        "unlocked_at": "Level 17",
+        "production_time": "4 hours\/240 minutes",
+        "msp": "110 Simoleons",
+        "spm": "0.4583",
+        "used_in": "Lemonade Bottle,  Donuts,  Frozen Yogurt,  Coffee,  Tropical Drink"
+    },
+    {
+        "material_name": "Glass",
+        "unlocked_at": "Level 19",
+        "production_time": "5 hours\/300 minutes",
+        "msp": "120 Simoleons",
+        "spm": "0.4",
+        "used_in": "Cupboard,  Lighting System,  TV,  Microwave Oven,  Watch,  Lemonade Bottle"
+    },
+    {
+        "material_name": "Animal Feed",
+        "unlocked_at": "Level 23",
+        "production_time": "6 hours\/360 minutes",
+        "msp": "140 Simoleons",
+        "spm": "0.388",
+        "used_in": "Beef,  Cream,  Cheese"
+    },
+    {
+        "material_name": "Electrical Components",
+        "unlocked_at": "Level 29",
+        "production_time": "7 hours\/420 minutes",
+        "msp": "160 Simoleons",
+        "spm": "0.389",
+        "used_in": "Drill,  Lawn Mower,  Refrigerator,  Lighting System,  TV,  Microwave Oven,  Engine"
+    }
+]

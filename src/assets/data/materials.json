@@ -1,0 +1,354 @@
+[
+    {
+      "img": "Metal.png",
+      "material_name": "Metal"
+    },
+    {
+      "img": "Wood.png",
+      "material_name": "Wood"
+    },
+    {
+      "img": "Plastic.png",
+      "material_name": "Plastic"
+    },
+    {
+      "img": "Seeds.png",
+      "material_name": "Seeds"
+    },
+    {
+      "img": "Minerals.png",
+      "material_name": "Minerals"
+    },
+    {
+      "img": "Chemicals.png",
+      "material_name": "Chemicals"
+    },
+    {
+      "img": "Textiles.png",
+      "material_name": "Textiles"
+    },
+    {
+      "img": "Sugar and Spices.png",
+      "material_name": "Sugar and Spices"
+    },
+    {
+      "img": "Glass.png",
+      "material_name": "Glass"
+    },
+    {
+      "img": "Animal Feed.png",
+      "material_name": "Animal Feed"
+    },
+    {
+      "img": "Electrical Components.png",
+      "material_name": "Electrical Components"
+    },
+    {
+      "img": "Nails.png",
+      "material_name": "Nails"
+    },
+    {
+      "img": "Planks.png",
+      "material_name": "Planks"
+    },
+    {
+      "img": "Bricks.png",
+      "material_name": "Bricks"
+    },
+    {
+      "img": "Cement.png",
+      "material_name": "Cement"
+    },
+    {
+      "img": "Glue.png",
+      "material_name": "Glue"
+    },
+    {
+      "img": "Paint.png",
+      "material_name": "Paint"
+    },
+    {
+      "img": "Hammer.png",
+      "material_name": "Hammer"
+    },
+    {
+      "img": "Measuring Tape.png",
+      "material_name": "Measuring Tape"
+    },
+    {
+      "img": "Shovel.png",
+      "material_name": "Shovel"
+    },
+    {
+      "img": "Cooking Utensils.png",
+      "material_name": "Cooking Utensils"
+    },
+    {
+      "img": "Ladder.png",
+      "material_name": "Ladder"
+    },
+    {
+      "img": "Drill.png",
+      "material_name": "Drill"
+    },
+    {
+      "img": "Vegetables.png",
+      "material_name": "Vegetables"
+    },
+    {
+      "img": "Flour Bag.png",
+      "material_name": "Flour Bag"
+    },
+    {
+      "img": "Fruit and Berries.png",
+      "material_name": "Fruit and Berries"
+    },
+    {
+      "img": "Cream.png",
+      "material_name": "Cream"
+    },
+    {
+      "img": "Corn.png",
+      "material_name": "Corn"
+    },
+    {
+      "img": "Cheese.png",
+      "material_name": "Cheese"
+    },
+    {
+      "img": "Beef.png",
+      "material_name": "Beef"
+    },
+    {
+      "img": "Chairs.png",
+      "material_name": "Chairs"
+    },
+    {
+      "img": "Tables.png",
+      "material_name": "Tables"
+    },
+    {
+      "img": "Home Textiles.png",
+      "material_name": "Home Textiles"
+    },
+    {
+      "img": "Cupboard.png",
+      "material_name": "Cupboard"
+    },
+    {
+      "img": "Couch.png",
+      "material_name": "Couch"
+    },
+    {
+      "img": "Grass.png",
+      "material_name": "Grass"
+    },
+    {
+      "img": "Tree Saplings.png",
+      "material_name": "Tree Saplings"
+    },
+    {
+      "img": "Garden Furniture.png",
+      "material_name": "Garden Furniture"
+    },
+    {
+      "img": "Fire Pit.png",
+      "material_name": "Fire Pit"
+    },
+    {
+      "img": "Lawn Mower.png",
+      "material_name": "Lawn Mower"
+    },
+    {
+      "img": "Garden Gnomes.png",
+      "material_name": "Garden Gnomes"
+    },
+    {
+      "img": "Donuts.png",
+      "material_name": "Donuts"
+    },
+    {
+      "img": "Green Smoothie.png",
+      "material_name": "Green Smoothie"
+    },
+    {
+      "img": "Bread Roll.png",
+      "material_name": "Bread Roll"
+    },
+    {
+      "img": "Cherry Cheesecake.png",
+      "material_name": "Cherry Cheesecake"
+    },
+    {
+      "img": "Frozen Yogurt.png",
+      "material_name": "Frozen Yogurt"
+    },
+    {
+      "img": "Coffee.png",
+      "material_name": "Coffee"
+    },
+    {
+      "img": "Cap.png",
+      "material_name": "Cap"
+    },
+    {
+      "img": "Shoes.png",
+      "material_name": "Shoes"
+    },
+    {
+      "img": "Watch.png",
+      "material_name": "Watch"
+    },
+    {
+      "img": "Business suits.png",
+      "material_name": "Business suits"
+    },
+    {
+      "img": "Backpack.png",
+      "material_name": "Backpack"
+    },
+    {
+      "img": "Ice Cream Sandwich.png",
+      "material_name": "Ice Cream Sandwich"
+    },
+    {
+      "img": "Pizza.png",
+      "material_name": "Pizza"
+    },
+    {
+      "img": "Burgers.png",
+      "material_name": "Burgers"
+    },
+    {
+      "img": "Cheese Fries.png",
+      "material_name": "Cheese Fries"
+    },
+    {
+      "img": "Lemonade Bottle.png",
+      "material_name": "Lemonade Bottle"
+    },
+    {
+      "img": "Popcorn.png",
+      "material_name": "Popcorn"
+    },
+    {
+      "img": "BBQ Grill.png",
+      "material_name": "BBQ Grill"
+    },
+    {
+      "img": "Refrigerator.png",
+      "material_name": "Refrigerator"
+    },
+    {
+      "img": "Lighting System.png",
+      "material_name": "Lighting System"
+    },
+    {
+      "img": "TV.png",
+      "material_name": "TV"
+    },
+    {
+      "img": "Microwave Oven.png",
+      "material_name": "Microwave Oven"
+    },
+    {
+      "img": "Chocolate Bar.png",
+      "material_name": "Chocolate Bar"
+    },
+    {
+      "img": "Easter Basket.png",
+      "material_name": "Easter Basket"
+    },
+    {
+      "img": "Jelly Beans.png",
+      "material_name": "Jelly Beans"
+    },
+    {
+      "img": "Chocolate Egg.png",
+      "material_name": "Chocolate Egg"
+    },
+    {
+      "img": "Fruit Cake.png",
+      "material_name": "Fruit Cake"
+    },
+    {
+      "img": "Crude Oil.png",
+      "material_name": "Crude Oil"
+    },
+    {
+      "img": "Recycled Fabric.png",
+      "material_name": "Recycled Fabric"
+    },
+    {
+      "img": "Silk.png",
+      "material_name": "Silk"
+    },
+    {
+      "img": "Coconut.png",
+      "material_name": "Coconut"
+    },
+    {
+      "img": "Fish.png",
+      "material_name": "Fish"
+    },
+    {
+      "img": "Motor Oil.png",
+      "material_name": "Motor Oil"
+    },
+    {
+      "img": "Car Tire.png",
+      "material_name": "Car Tire"
+    },
+    {
+      "img": "Engine.png",
+      "material_name": "Engine"
+    },
+    {
+      "img": "Reusable Bag.png",
+      "material_name": "Reusable Bag"
+    },
+    {
+      "img": "Ecological Shoes.png",
+      "material_name": "Ecological Shoes"
+    },
+    {
+      "img": "Yoga Mat.png",
+      "material_name": "Yoga Mat"
+    },
+    {
+      "img": "String.png",
+      "material_name": "String"
+    },
+    {
+      "img": "Fan.png",
+      "material_name": "Fan"
+    },
+    {
+      "img": "Robe.png",
+      "material_name": "Robe"
+    },
+    {
+      "img": "Cocnut Oil.png",
+      "material_name": "Cocnut Oil"
+    },
+    {
+      "img": "Face Cream.png",
+      "material_name": "Face Cream"
+    },
+    {
+      "img": "Tropical Drink.png",
+      "material_name": "Tropical Drink"
+    },
+    {
+      "img": "Canned Fish.png",
+      "material_name": "Canned Fish"
+    },
+    {
+      "img": "Fish Soup.png",
+      "material_name": "Fish Soup"
+    },
+    {
+      "img": "Salmon Sandwich.png",
+      "material_name": "Salmon Sandwich"
+    }
+  ]

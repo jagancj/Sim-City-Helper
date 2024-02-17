@@ -1,0 +1,211 @@
+[
+    {
+        "item": "Item",
+        "unlocked_at": "Unlocking Requirements",
+        "mat_used": "Materials Used",
+        "production_time": "Production Time(For 3  Shop)",
+        "msp": "Max Selling Price",
+        "spm": "Simoleons per Minute",
+        "produced_in": "Produced in",
+        "used_in": "Used in these Items"
+    },
+    {
+        "item": "Reusable Bag",
+        "unlocked_at": "Level 25, After Unlocking Green Valley",
+        "mat_used": {
+            "Recycled Fabric": "2"
+        },
+        "production_time": "16 minutes",
+        "msp": "120 Simoleons",
+        "spm": "7.5 Simoleons",
+        "produced_in": "Eco Shop",
+        "used_in": ""
+    },
+    {
+        "item": "Ecological Shoes",
+        "unlocked_at": "Level 30, After Unlocking Green Valley",
+        "mat_used": {
+            "Recycled Fabric": "2",
+            "Glue": "2",
+            "Measuringtape": "2"
+        },
+        "production_time": "96 minutes",
+        "msp": "750 Simoleons",
+        "spm": "7.81 Simoleons",
+        "produced_in": "Eco Shop",
+        "used_in": ""
+    },
+    {
+        "item": "Yoga Mat",
+        "unlocked_at": "Level 35, After Unlocking Green Valley",
+        "mat_used": {
+            "Recycled Fabric": "3",
+            "Hometextile": "3",
+            "Paintbucket": "3"
+        },
+        "production_time": "192 minutes",
+        "msp": "2,000 Simoleons",
+        "spm": "10.41 Simoleons",
+        "produced_in": "Eco Shop",
+        "used_in": ""
+    },
+    {
+        "item": "Motor Oil",
+        "unlocked_at": "Level 25, After Unlocking Cactus Canyon",
+        "mat_used": {
+            "Crude Oil": "2"
+        },
+        "production_time": "16 minutes",
+        "msp": "120 Simoleons",
+        "spm": "7.5 Simoleons",
+        "produced_in": "Car Parts",
+        "used_in": ""
+    },
+    {
+        "item": "Car Tire",
+        "unlocked_at": "Level 30, After Unlocking Cactus Canyon",
+        "mat_used": {
+            "Crude Oil": "2",
+            "Glue": "2",
+            "Nails": "2"
+        },
+        "production_time": "96 minutes",
+        "msp": "950 Simoleons",
+        "spm": "9.89 Simoleons",
+        "produced_in": "Car Parts",
+        "used_in": ""
+    },
+    {
+        "item": "Engine",
+        "unlocked_at": "Level 35, After Unlocking Cactus Canyon",
+        "mat_used": {
+            "Electrical Components": "1",
+            "Drill": "1",
+            "Nails": "1"
+        },
+        "production_time": "192 minutes",
+        "msp": "2,000 Simoleons",
+        "spm": "10.41 Simoleons",
+        "produced_in": "Car Parts",
+        "used_in": ""
+    },
+    {
+        "item": "Canned Fish",
+        "unlocked_at": "Level 25, After Unlocking Frosty Fjords",
+        "mat_used": {
+            "Fish": "1",
+            "Metal": "1"
+        },
+        "production_time": "16 minutes",
+        "msp": "120 Simoleons",
+        "spm": "7.5 Simoleons",
+        "produced_in": "Fish Marketplace",
+        "used_in": ""
+    },
+    {
+        "item": "Fish Soup",
+        "unlocked_at": "Level 30, After Unlocking Frosty Fjords",
+        "mat_used": {
+            "Vegetables": "1",
+            "Fish": "1",
+            "Cooking Utensils": "1"
+        },
+        "production_time": "96 minutes",
+        "msp": "400 Simoleons",
+        "spm": "4.16 Simoleons",
+        "produced_in": "Fish Marketplace",
+        "used_in": ""
+    },
+    {
+        "item": "Salmon Sandwich",
+        "unlocked_at": "Level 35, After Unlocking Frosty Fjords",
+        "mat_used": {
+            "Breadroll": "1",
+            "Fish": "1"
+        },
+        "production_time": "144 minutes",
+        "msp": "2,200 Simoleons",
+        "spm": "15.27 Simoleons",
+        "produced_in": "Fish Marketplace",
+        "used_in": ""
+    },
+    {
+        "item": "String",
+        "unlocked_at": "Level 25, After Unlocking Limestone Cliffs",
+        "mat_used": {
+            "Silk": "2"
+        },
+        "production_time": "16 minutes",
+        "msp": "120 Simoleons",
+        "spm": "7.5 Simoleons",
+        "produced_in": "Silk Store",
+        "used_in": ""
+    },
+    {
+        "item": "Fan",
+        "unlocked_at": "Level 30, After Unlocking Limestone Cliffs",
+        "mat_used": {
+            "Silk": "2",
+            "Wood": "2",
+            "Glue": "2"
+        },
+        "production_time": "120 minutes",
+        "msp": "1,100 Simoleons",
+        "spm": "9.16 Simoleons",
+        "produced_in": "Silk Store",
+        "used_in": ""
+    },
+    {
+        "item": "Robe",
+        "unlocked_at": "Level 35, After Unlocking Limestone Cliffs",
+        "mat_used": {
+            "Hometextile": "1",
+            "Paintbucket": "1",
+            "Silk": "1"
+        },
+        "production_time": "192 minutes",
+        "msp": "2,000 Simoleons",
+        "spm": "10.41 Simoleons",
+        "produced_in": "Silk Store",
+        "used_in": ""
+    },
+    {
+        "item": "Coconut Oil",
+        "unlocked_at": "Level 25, After Unlocking Sunny Isles",
+        "mat_used": {
+            "Coconut": "2"
+        },
+        "production_time": "16 minutes",
+        "msp": "120 Simoleons",
+        "spm": "7.5 Simoleons",
+        "produced_in": "Tropical Products Store",
+        "used_in": "Face Cream"
+    },
+    {
+        "item": "Face Cream",
+        "unlocked_at": "Level 30, After Unlocking Sunny Isles",
+        "mat_used": {
+            "Coconut Oil": "2",
+            "Chemicals": "2"
+        },
+        "production_time": "72 minutes",
+        "msp": "850 Simoleons",
+        "spm": "11.80 Simoleons",
+        "produced_in": "Tropical Products Store",
+        "used_in": ""
+    },
+    {
+        "item": "Tropical Drink",
+        "unlocked_at": "Level 35, After Unlocking Sunny Isles",
+        "mat_used": {
+            "Fruit and Berries ": "2",
+            "Coconut": "2",
+            "Sugarspices": "2"
+        },
+        "production_time": "200 minutes",
+        "msp": "2,400 Simoleons",
+        "spm": "12 Simoleons",
+        "produced_in": "Tropical Products Store",
+        "used_in": ""
+    }
+]

@@ -1,0 +1,7 @@
+{
+  "name": "sim-city-helper",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite"
+}

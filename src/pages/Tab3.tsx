@@ -17,7 +17,7 @@ const Tab3: React.FC = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch('src/assets/data/materials.json', {
+        const response = await fetch('../assets/data/materials.json', {
           headers: {
             'Content-Type': 'application/json',
             'Accept': 'application/json'

@@ -25,7 +25,7 @@ const Tab1: React.FC = () => {
   };
   const fetchList = () => {
     let rawData: never[] = [];
-    fetch('src/assets/data/table_1.json', {
+    fetch('../assets/data/table_1.json', {
       headers: {
         'Content-Type': 'application/json',
         'Accept': 'application/json'

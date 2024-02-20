@@ -48,7 +48,7 @@ const Tab2: React.FC = () => {
 
   const fetchData = async () => {
     try {
-      const response = await fetch('src/assets/data/materials.json', {
+      const response = await fetch('../assets/data/materials.json', {
         headers: {
           'Content-Type': 'application/json',
           'Accept': 'application/json'
@@ -64,7 +64,7 @@ const Tab2: React.FC = () => {
     }
   };
   const fetchMaterial = async () => {
-    const response = await fetch('src/assets/data/table_3.json', {
+    const response = await fetch('../assets/data/table_3.json', {
       headers: {
         'Content-Type': 'application/json',
         'Accept': 'application/json'

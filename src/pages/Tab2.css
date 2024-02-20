@@ -1,0 +1,14 @@
+.list-item-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .list-item {
+    width: calc(50% - 10px); /* 50% width with some space between items */
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f8f8f8;
+    box-sizing: border-box; /* Include padding and border in width calculation */
+  }

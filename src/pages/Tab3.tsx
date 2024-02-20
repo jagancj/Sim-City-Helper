@@ -1,4 +1,4 @@
-import { IonButton, IonContent, IonHeader, IonImg, IonInput, IonItem, IonLabel, IonPage, IonSelect, IonSelectOption, IonTitle, IonToolbar } from '@ionic/react';
+import { IonButton, IonContent, IonHeader, IonInput, IonItem, IonLabel, IonPage, IonSelect, IonSelectOption, IonTitle, IonToolbar } from '@ionic/react';
 import './Tab3.css';
 import { useEffect, useState } from 'react';
 import DexieService from '../components/DexieService';
@@ -27,8 +27,6 @@ const Tab3: React.FC = () => {
           throw new Error('Network response was not ok.');
         }
         const jsonData = await response.json();
-        console.log(jsonData);
-
         setData(jsonData);
       } catch (error) {
         console.error('Error fetching data:', error);
@@ -47,21 +45,15 @@ const Tab3: React.FC = () => {
   };
 
   const handleSubmit = async () => {
-    // Handle form submission here
     const dexieService = new DexieService();
-    dexieService.addMaterial(selectedValue, 0, quantity).then((id) => {
-      console.log(id);
-    });
-    // Optionally, you can clear the form fields after adding the data
-    console.log('Selected Option:', selectedValue);
-    console.log('Quantity:', quantity);
+    dexieService.addMaterial(selectedValue, quantity, 0);
   };
 
   return (
     <IonPage>
       <IonHeader>
         <IonToolbar>
-          <IonTitle>Tab 3</IonTitle>
+          <IonTitle>Add Your Storage Items</IonTitle>
         </IonToolbar>
       </IonHeader>
       <IonContent>

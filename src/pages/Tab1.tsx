@@ -1,21 +1,49 @@
-import { IonContent, IonHeader, IonImg, IonPage, IonTitle, IonToolbar } from '@ionic/react';
+import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar } from '@ionic/react';
 import './Tab1.css';
 import { useEffect, useState } from 'react';
-import Material from '../components/DexieService';
-import DexieService  from '../components/DexieService';
+import DexieService from '../components/DexieService';
+import TableContainer from '../components/TableContainer';
 
 const Tab1: React.FC = () => {
   const [materials, setMaterials] = useState<any[]>([]);
+  const [rawMaterial, setRawMaterials] = useState<any[]>([]);
 
   useEffect(() => {
-    const dexieService = new DexieService();
-
-    dexieService.getMaterials().then((materials) => {
-      console.log(materials);
-      setMaterials(materials);
-    });
+    fetchList();
   }, []);
-  
+  const findRawMatObjects = (arr1: any, arr2: any): any => {
+    const matchingObjects: any[] = [];
+    const remainingObjects: any[] = [...arr2];
+    for (const obj1 of arr1) {
+      const matchingObjIndex = remainingObjects.findIndex((obj2: { mat_name: string; }) => obj2.mat_name === obj1.material_name);
+      if (matchingObjIndex !== -1) {
+        const matchingObj = remainingObjects.splice(matchingObjIndex, 1)[0];
+        matchingObjects.push(matchingObj);
+      }
+    }
+    return { matchingObjects, remainingObjects };
+  };
+  const fetchList = () => {
+    let rawData: never[] = [];
+    fetch('src/assets/data/table_1.json', {
+      headers: {
+        'Content-Type': 'application/json',
+        'Accept': 'application/json'
+      }
+    }).then(response => response.json())
+      .then(data => {
+        rawData = data;
+      });
+
+
+    const dexieService = new DexieService();
+    dexieService.getMaterials().then((materials) => {
+
+      const { matchingObjects, remainingObjects } = findRawMatObjects(rawData, materials);
+      setMaterials(remainingObjects);
+      setRawMaterials(matchingObjects);
+    });
+  }
   return (
     <IonPage>
       <IonHeader>
@@ -24,31 +52,15 @@ const Tab1: React.FC = () => {
         </IonToolbar>
       </IonHeader>
       <IonContent fullscreen>
-      <table className="material-table">
-      <thead>
-        <tr>
-          <th>Material</th>
-          <th>Have</th>
-          <th>Required</th>
-          <th>Need</th>
-        </tr>
-      </thead>
-      <tbody>
-        {materials.map((material) => (
-          <tr key={material.id}>
-            <td className='text-style'>
-            <img
-      src={`src/assets/images/${material.mat_name}.png`}
-      alt={material.mat_name}
-    />
-    <span>{material.mat_name}</span></td>
-            <td>{material.haveQty}</td>
-            <td>{material.requiredQty}</td>
-            <td>{material.requiredQty-material.haveQty}</td>
-          </tr>
-        ))}
-      </tbody>
-    </table>
+        <h4>Raw Materials</h4>
+        {
+          (rawMaterial.length > 0) ? <TableContainer material={rawMaterial} /> : <></>
+        }
+        
+        <h4>Shop Materials</h4>
+        {
+          (materials.length > 0) ?  <TableContainer material={materials} /> : <></>
+        }
       </IonContent>
     </IonPage>
   );

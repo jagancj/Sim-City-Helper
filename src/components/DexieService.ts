@@ -41,7 +41,9 @@ class DexieService {
     if (existingMaterial) {
       const updatedHaveQty = existingMaterial.haveQty + haveQty;
       const updatedRequiredQty = existingMaterial.requiredQty + requiredQty;
-      await this.db.materials.update(existingMaterial.id!, { haveQty: updatedHaveQty, requiredQty: updatedRequiredQty });
+      const netUpdatedHaveQty = (updatedHaveQty >= 0) ? updatedHaveQty : 0;
+      const netUpdatedRequiredQty = (updatedRequiredQty >= 0) ? updatedRequiredQty : 0;
+      await this.db.materials.update(existingMaterial.id!, { haveQty: netUpdatedHaveQty, requiredQty: netUpdatedRequiredQty });
       return existingMaterial.id!;
     } else {
       return await this.db.materials.add({ mat_name, haveQty, requiredQty });

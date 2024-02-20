@@ -1,16 +1,6 @@
 [
     {
-        "item": "Item",
-        "unlocked_at": "Unlocked At",
-        "mat_used": "Materials Used",
-        "production_time": "Production Time(For 3  Shop)",
-        "msp": "Max Selling Price",
-        "spm": "Simoleons per Minute",
-        "produced_in": "Produced in",
-        "used_in": "Used in these Items"
-    },
-    {
-        "Item": "Nails",
+        "item": "Nails",
         "unlocked_at": "Level 1",
         "mat_used": {
             "Metal": "2"
@@ -22,7 +12,7 @@
         "used_in": "Chairs,  Tables,  Car Tire,  Engine"
     },
     {
-        "Item": "Planks",
+        "item": "Planks",
         "unlocked_at": "Level 6",
         "mat_used": {
             "Wood": "2"
@@ -34,7 +24,7 @@
         "used_in": "Tables,  Cupboard,  Ladder,  Garden Furniture"
     },
     {
-        "Item": "Bricks",
+        "item": "Bricks",
         "unlocked_at": "Level 13",
         "mat_used": {
             "Minerals": "2"
@@ -46,7 +36,7 @@
         "used_in": "Firepit"
     },
     {
-        "Item": "Cement",
+        "item": "Cement",
         "unlocked_at": "Level 14",
         "mat_used": {
             "Minerals": "2",
@@ -59,7 +49,7 @@
         "used_in": "Firepit,  Garden Gnomes"
     },
     {
-        "Item": "Glue",
+        "item": "Glue",
         "unlocked_at": "Level 15",
         "mat_used": {
             "Plastic": "1",
@@ -72,7 +62,7 @@
         "used_in": "Garden Gnomes,  Couch,  Shoes,  Business Suit,  Ecological Shoes,  Car Tire,  Fan"
     },
     {
-        "Item": "Paint",
+        "item": "Paint",
         "unlocked_at": "Level 16",
         "mat_used": {
             "Metal": "2",
@@ -86,7 +76,7 @@
         "used_in": "Lawnmower,  Cupboard,  Yoga Mat,  Robe"
     },
     {
-        "Item": "Hammer",
+        "item": "Hammer",
         "unlocked_at": "Level 4",
         "mat_used": {
             "Metal": "1",
@@ -99,7 +89,7 @@
         "used_in": "Chairs,  Tables"
     },
     {
-        "Item": "Measuring Tape",
+        "item": "Measuring Tape",
         "unlocked_at": "Level 6",
         "mat_used": {
             "Metal": "1",
@@ -112,7 +102,7 @@
         "used_in": "Home Textiles,  Cap,  Business Suits,  Backpack,  Ecological Shoes"
     },
     {
-        "Item": "Shovel",
+        "item": "Shovel",
         "unlocked_at": "Level 9",
         "mat_used": {
             "Metal": "1",
@@ -126,7 +116,7 @@
         "used_in": "Grass,  Tree Saplings,  Fire Pit"
     },
     {
-        "Item": "Cooking Utensils",
+        "item": "Cooking Utensils",
         "unlocked_at": "Level 17",
         "mat_used": {
             "Metal": "2",
@@ -140,7 +130,7 @@
         "used_in": "BBQ Grill,  Fish Soup"
     },
     {
-        "Item": "Ladder",
+        "item": "Ladder",
         "unlocked_at": "Level 20",
         "mat_used": {
             "Planks": "2",
@@ -153,7 +143,7 @@
         "used_in": ""
     },
     {
-        "Item": "Drill",
+        "item": "Drill",
         "unlocked_at": "Level 30",
         "mat_used": {
             "Metal": "2",
@@ -167,7 +157,7 @@
         "used_in": "Couch,  Engine"
     },
     {
-        "Item": "Vegetables",
+        "item": "Vegetables",
         "unlocked_at": "Level 8",
         "mat_used": {
             "Seeds": "2"
@@ -179,7 +169,7 @@
         "used_in": "Green Smoothie,  Cheese Fries,  Fish Soup"
     },
     {
-        "Item": "Flour Bag",
+        "item": "Flour Bag",
         "unlocked_at": "Level 17",
         "mat_used": {
             "Seeds": "2",
@@ -192,7 +182,7 @@
         "used_in": "Donuts,  Bread Roll,  Cherry Cheesecake,  Pizza"
     },
     {
-        "Item": "Fruit and Berries",
+        "item": "Fruit and Berries",
         "unlocked_at": "Level 18",
         "mat_used": {
             "Seeds": "2",
@@ -205,7 +195,7 @@
         "used_in": "Green Smoothie,  Cherry Cheesecake,  Frozen Yogurt,  Lemonade Bottle,  Tropical Drink"
     },
     {
-        "Item": "Cream",
+        "item": "Cream",
         "unlocked_at": "Level 23",
         "mat_used": {
             "Animalfeed": "1"
@@ -217,7 +207,7 @@
         "used_in": "Bread Roll,  Frozen Yogurt,  Coffee,  Ice Cream Sandwich"
     },
     {
-        "Item": "Corn",
+        "item": "Corn",
         "unlocked_at": "Level 24",
         "mat_used": {
             "Minerals": "4",
@@ -230,7 +220,7 @@
         "used_in": "Popcorn"
     },
     {
-        "Item": "Cheese",
+        "item": "Cheese",
         "unlocked_at": "Level 26",
         "mat_used": {
             "Animalfeed": "2"
@@ -242,7 +232,7 @@
         "used_in": "Cherry Cheesecake,  Pizza,  Cheese Fries"
     },
     {
-        "Item": "Beef",
+        "item": "Beef",
         "unlocked_at": "Level 27",
         "mat_used": {
             "Animalfeed": "3"
@@ -254,7 +244,7 @@
         "used_in": "Pizza,  Burger"
     },
     {
-        "Item": "Chair",
+        "item": "Chair",
         "unlocked_at": "Level 10",
         "mat_used": {
             "Wood": "2",
@@ -268,7 +258,7 @@
         "used_in": ""
     },
     {
-        "Item": "Table",
+        "item": "Table",
         "unlocked_at": "Level 16",
         "mat_used": {
             "Planks": "1",
@@ -282,11 +272,11 @@
         "used_in": ""
     },
     {
-        "Item": "Home Textile",
+        "item": "Home Textiles",
         "unlocked_at": "Level 25",
         "mat_used": {
             "Textiles": "2",
-            "Measuringtape": "2"
+            "Measuring Tape": "2"
         },
         "production_time": "60 minutes",
         "msp": "610 Simoleons",
@@ -295,12 +285,12 @@
         "used_in": "Yoga Mat,  Robe"
     },
     {
-        "Item": "Cupboard",
+        "item": "Cupboard",
         "unlocked_at": "Level 26",
         "mat_used": {
             "Planks": "2",
             "Glass": "2",
-            "Paintbucket": "2"
+            "Paint": "2"
         },
         "production_time": "36 minutes",
         "msp": "900 Simoleons",
@@ -309,7 +299,7 @@
         "used_in": ""
     },
     {
-        "Item": "Couch",
+        "item": "Couch",
         "unlocked_at": "Level 33",
         "mat_used": {
             "Textiles": "3",
@@ -323,7 +313,7 @@
         "used_in": ""
     },
     {
-        "Item": "Grass",
+        "item": "Grass",
         "unlocked_at": "Level 14",
         "mat_used": {
             "Seeds": "1",
@@ -336,7 +326,7 @@
         "used_in": ""
     },
     {
-        "Item": "Tree Sapling",
+        "item": "Tree Sapling",
         "unlocked_at": "Level 16",
         "mat_used": {
             "Seeds": "2",
@@ -349,7 +339,7 @@
         "used_in": "Fruit and Berries"
     },
     {
-        "Item": "Garden Furniture",
+        "item": "Garden Furniture",
         "unlocked_at": "Level 21",
         "mat_used": {
             "Planks": "2",
@@ -363,11 +353,11 @@
         "used_in": ""
     },
     {
-        "Item": "Lawn Mower",
+        "item": "Lawn Mower",
         "unlocked_at": "",
         "mat_used": {
             "Metal": "3",
-            "Paintbucket": "3",
+            "Paint": "3",
             "Electrical Components": "3"
         },
         "production_time": "96 minutes",
@@ -377,7 +367,7 @@
         "used_in": ""
     },
     {
-        "Item": "Fire Pit",
+        "item": "Fire Pit",
         "unlocked_at": "Level 28",
         "mat_used": {
             "Bricks": "2",
@@ -391,7 +381,7 @@
         "used_in": ""
     },
     {
-        "Item": "Garden Gnome",
+        "item": "Garden Gnome",
         "unlocked_at": "Level 34",
         "mat_used": {
             "Cement": "2",
@@ -404,7 +394,7 @@
         "used_in": ""
     },
     {
-        "Item": "Donuts",
+        "item": "Donuts",
         "unlocked_at": "Level 18",
         "mat_used": {
             "Flour Bag": "1",
@@ -417,11 +407,11 @@
         "used_in": ""
     },
     {
-        "Item": "Green Smoothie",
+        "item": "Green Smoothie",
         "unlocked_at": "Level 20",
         "mat_used": {
             "Vegetables": "1",
-            "Fruit and Berries ": "1"
+            "Fruit and Berries": "1"
         },
         "production_time": "24 minutes",
         "msp": "1,150 Simoleons",
@@ -430,7 +420,7 @@
         "used_in": ""
     },
     {
-        "Item": "Bread Roll",
+        "item": "Bread Roll",
         "unlocked_at": "Level 25",
         "mat_used": {
             "Flour Bag": "2",
@@ -443,11 +433,11 @@
         "used_in": "Ice Cream Sandwich,  Burgers,  Salmon Sandwich"
     },
     {
-        "Item": "Cherry Cheesecake",
+        "item": "Cherry Cheesecake",
         "unlocked_at": "Level 27",
         "mat_used": {
             "Flour Bag": "1",
-            "Fruit and Berries ": "1",
+            "Fruit and Berries": "1",
             "Cheese": "1"
         },
         "production_time": "72 minutes",
@@ -457,10 +447,10 @@
         "used_in": ""
     },
     {
-        "Item": "Frozen Yogurt",
+        "item": "Frozen Yogurt",
         "unlocked_at": "Level 28",
         "mat_used": {
-            "Fruit and Berries ": "1",
+            "Fruit and Berries": "1",
             "Cream": "1",
             "Sugarspices": "1"
         },
@@ -471,7 +461,7 @@
         "used_in": ""
     },
     {
-        "Item": "Coffee",
+        "item": "Coffee",
         "unlocked_at": "Level 33",
         "mat_used": {
             "Cream": "1",
@@ -485,11 +475,11 @@
         "used_in": ""
     },
     {
-        "Item": "Cap",
+        "item": "Cap",
         "unlocked_at": "Level 19",
         "mat_used": {
             "Textiles": "2",
-            "Measuringtape": "2"
+            "Measuring Tape": "2"
         },
         "production_time": "48 minutes",
         "msp": "600 Simoleons",
@@ -498,7 +488,7 @@
         "used_in": ""
     },
     {
-        "Item": "Shoes",
+        "item": "Shoes",
         "unlocked_at": "Level 21",
         "mat_used": {
             "Textiles": "2",
@@ -512,7 +502,7 @@
         "used_in": ""
     },
     {
-        "Item": "Watch",
+        "item": "Watch",
         "unlocked_at": "Level 22",
         "mat_used": {
             "Plastic": "2",
@@ -526,11 +516,11 @@
         "used_in": ""
     },
     {
-        "Item": "Business Suits",
+        "item": "Business Suits",
         "unlocked_at": "Level 32",
         "mat_used": {
             "Textiles": "3",
-            "Measuringtape": "3",
+            "Measuring Tape": "3",
             "Glue": "3"
         },
         "production_time": "168 minutes",
@@ -540,12 +530,12 @@
         "used_in": ""
     },
     {
-        "Item": "Backpack",
+        "item": "Backpack",
         "unlocked_at": "Level 34",
         "mat_used": {
             "Textiles": "2",
             "Plastic": "2",
-            "Measuringtape": "2"
+            "Measuring Tape": "2"
         },
         "production_time": "120 minutes",
         "msp": "430 Simoleons",
@@ -554,7 +544,7 @@
         "used_in": ""
     },
     {
-        "Item": "Ice Cream Sandwich",
+        "item": "Ice Cream Sandwich",
         "unlocked_at": "Level 25",
         "mat_used": {
             "Breadroll": "1",
@@ -567,7 +557,7 @@
         "used_in": ""
     },
     {
-        "Item": "Pizza",
+        "item": "Pizza",
         "unlocked_at": "Level 28",
         "mat_used": {
             "Flour Bag": "1",
@@ -581,7 +571,7 @@
         "used_in": ""
     },
     {
-        "Item": "Burger",
+        "item": "Burger",
         "unlocked_at": "Level 31",
         "mat_used": {
             "Beef": "1",
@@ -595,7 +585,7 @@
         "used_in": ""
     },
     {
-        "Item": "Cheese Fries",
+        "item": "Cheese Fries",
         "unlocked_at": "Level 33",
         "mat_used": {
             "Vegetables": "1",
@@ -608,12 +598,12 @@
         "used_in": ""
     },
     {
-        "Item": "Lemonade Bottle",
+        "item": "Lemonade Bottle",
         "unlocked_at": "Level 37",
         "mat_used": {
             "Glass": "2",
             "Sugarspices": "2",
-            "Fruit and Berries ": "2"
+            "Fruit and Berries": "2"
         },
         "production_time": "48 minutes",
         "msp": "1,690 Simoleons",
@@ -622,7 +612,7 @@
         "used_in": ""
     },
     {
-        "Item": "Popcorn",
+        "item": "Popcorn",
         "unlocked_at": "Level 43",
         "mat_used": {
             "Microwave Oven": "1",
@@ -635,7 +625,7 @@
         "used_in": ""
     },
     {
-        "Item": "BBQ Grill",
+        "item": "BBQ Grill",
         "unlocked_at": "Level 29",
         "mat_used": {
             "Metal": "3",
@@ -648,7 +638,7 @@
         "used_in": "Burgers"
     },
     {
-        "Item": "Refrigerator",
+        "item": "Refrigerator",
         "unlocked_at": "Level 35",
         "mat_used": {
             "Plastic": "2",
@@ -662,7 +652,7 @@
         "used_in": ""
     },
     {
-        "Item": "Lighting System",
+        "item": "Lighting System",
         "unlocked_at": "Level 36",
         "mat_used": {
             "Chemicals": "1",
@@ -676,7 +666,7 @@
         "used_in": ""
     },
     {
-        "Item": "TV",
+        "item": "TV",
         "unlocked_at": "Level 38",
         "mat_used": {
             "Plastic": "2",
@@ -690,7 +680,7 @@
         "used_in": ""
     },
     {
-        "Item": "Microwave Oven",
+        "item": "Microwave Oven",
         "unlocked_at": "Level 42",
         "mat_used": {
             "Metal": "4",
@@ -702,5 +692,204 @@
         "spm": "5 Simoleons",
         "produced_in": "Home Appliances",
         "used_in": "Popcorn"
+    },
+    {
+        "item": "Reusable Bag",
+        "unlocked_at": "Level 25, After Unlocking Green Valley",
+        "mat_used": {
+            "Recycled Fabric": "2"
+        },
+        "production_time": "16 minutes",
+        "msp": "120 Simoleons",
+        "spm": "7.5 Simoleons",
+        "produced_in": "Eco Shop",
+        "used_in": ""
+    },
+    {
+        "item": "Ecological Shoes",
+        "unlocked_at": "Level 30, After Unlocking Green Valley",
+        "mat_used": {
+            "Recycled Fabric": "2",
+            "Glue": "2",
+            "Measuring Tape": "2"
+        },
+        "production_time": "96 minutes",
+        "msp": "750 Simoleons",
+        "spm": "7.81 Simoleons",
+        "produced_in": "Eco Shop",
+        "used_in": ""
+    },
+    {
+        "item": "Yoga Mat",
+        "unlocked_at": "Level 35, After Unlocking Green Valley",
+        "mat_used": {
+            "Recycled Fabric": "3",
+            "Hometextile": "3",
+            "Paint": "3"
+        },
+        "production_time": "192 minutes",
+        "msp": "2,000 Simoleons",
+        "spm": "10.41 Simoleons",
+        "produced_in": "Eco Shop",
+        "used_in": ""
+    },
+    {
+        "item": "Motor Oil",
+        "unlocked_at": "Level 25, After Unlocking Cactus Canyon",
+        "mat_used": {
+            "Crude Oil": "2"
+        },
+        "production_time": "16 minutes",
+        "msp": "120 Simoleons",
+        "spm": "7.5 Simoleons",
+        "produced_in": "Car Parts",
+        "used_in": ""
+    },
+    {
+        "item": "Car Tire",
+        "unlocked_at": "Level 30, After Unlocking Cactus Canyon",
+        "mat_used": {
+            "Crude Oil": "2",
+            "Glue": "2",
+            "Nails": "2"
+        },
+        "production_time": "96 minutes",
+        "msp": "950 Simoleons",
+        "spm": "9.89 Simoleons",
+        "produced_in": "Car Parts",
+        "used_in": ""
+    },
+    {
+        "item": "Engine",
+        "unlocked_at": "Level 35, After Unlocking Cactus Canyon",
+        "mat_used": {
+            "Electrical Components": "1",
+            "Drill": "1",
+            "Nails": "1"
+        },
+        "production_time": "192 minutes",
+        "msp": "2,000 Simoleons",
+        "spm": "10.41 Simoleons",
+        "produced_in": "Car Parts",
+        "used_in": ""
+    },
+    {
+        "item": "Canned Fish",
+        "unlocked_at": "Level 25, After Unlocking Frosty Fjords",
+        "mat_used": {
+            "Fish": "1",
+            "Metal": "1"
+        },
+        "production_time": "16 minutes",
+        "msp": "120 Simoleons",
+        "spm": "7.5 Simoleons",
+        "produced_in": "Fish Marketplace",
+        "used_in": ""
+    },
+    {
+        "item": "Fish Soup",
+        "unlocked_at": "Level 30, After Unlocking Frosty Fjords",
+        "mat_used": {
+            "Vegetables": "1",
+            "Fish": "1",
+            "Cooking Utensils": "1"
+        },
+        "production_time": "96 minutes",
+        "msp": "400 Simoleons",
+        "spm": "4.16 Simoleons",
+        "produced_in": "Fish Marketplace",
+        "used_in": ""
+    },
+    {
+        "item": "Salmon Sandwich",
+        "unlocked_at": "Level 35, After Unlocking Frosty Fjords",
+        "mat_used": {
+            "Breadroll": "1",
+            "Fish": "1"
+        },
+        "production_time": "144 minutes",
+        "msp": "2,200 Simoleons",
+        "spm": "15.27 Simoleons",
+        "produced_in": "Fish Marketplace",
+        "used_in": ""
+    },
+    {
+        "item": "String",
+        "unlocked_at": "Level 25, After Unlocking Limestone Cliffs",
+        "mat_used": {
+            "Silk": "2"
+        },
+        "production_time": "16 minutes",
+        "msp": "120 Simoleons",
+        "spm": "7.5 Simoleons",
+        "produced_in": "Silk Store",
+        "used_in": ""
+    },
+    {
+        "item": "Fan",
+        "unlocked_at": "Level 30, After Unlocking Limestone Cliffs",
+        "mat_used": {
+            "Silk": "2",
+            "Wood": "2",
+            "Glue": "2"
+        },
+        "production_time": "120 minutes",
+        "msp": "1,100 Simoleons",
+        "spm": "9.16 Simoleons",
+        "produced_in": "Silk Store",
+        "used_in": ""
+    },
+    {
+        "item": "Robe",
+        "unlocked_at": "Level 35, After Unlocking Limestone Cliffs",
+        "mat_used": {
+            "Hometextile": "1",
+            "Paint": "1",
+            "Silk": "1"
+        },
+        "production_time": "192 minutes",
+        "msp": "2,000 Simoleons",
+        "spm": "10.41 Simoleons",
+        "produced_in": "Silk Store",
+        "used_in": ""
+    },
+    {
+        "item": "Coconut Oil",
+        "unlocked_at": "Level 25, After Unlocking Sunny Isles",
+        "mat_used": {
+            "Coconut": "2"
+        },
+        "production_time": "16 minutes",
+        "msp": "120 Simoleons",
+        "spm": "7.5 Simoleons",
+        "produced_in": "Tropical Products Store",
+        "used_in": "Face Cream"
+    },
+    {
+        "item": "Face Cream",
+        "unlocked_at": "Level 30, After Unlocking Sunny Isles",
+        "mat_used": {
+            "Coconut Oil": "2",
+            "Chemicals": "2"
+        },
+        "production_time": "72 minutes",
+        "msp": "850 Simoleons",
+        "spm": "11.80 Simoleons",
+        "produced_in": "Tropical Products Store",
+        "used_in": ""
+    },
+    {
+        "item": "Tropical Drink",
+        "unlocked_at": "Level 35, After Unlocking Sunny Isles",
+        "mat_used": {
+            "Fruit and Berries": "2",
+            "Coconut": "2",
+            "Sugarspices": "2"
+        },
+        "production_time": "200 minutes",
+        "msp": "2,400 Simoleons",
+        "spm": "12 Simoleons",
+        "produced_in": "Tropical Products Store",
+        "used_in": ""
     }
 ]

@@ -25,11 +25,12 @@ const Tab2: React.FC = () => {
   const [data, setData] = useState<Item[]>([]);
   const [buildingList, setBuildingList] = useState<{ [key: number]: ListObject[] }>([]);
   const [materialNest, setMaterialNest] = useState<any>([]);
+  const [refresh, setRefresh] = useState(false);
   useEffect(() => {
     fetchList();
     fetchData();
     fetchMaterial();
-  }, []);
+  }, [refresh]);
   const fetchList = () => {
     const buildingService = new BuildingService();
     buildingService.getBuildings().then((list) => {
@@ -141,6 +142,7 @@ const Tab2: React.FC = () => {
         });
       }
     });
+    setRefresh(true);
 
   }
 
@@ -152,7 +154,7 @@ const Tab2: React.FC = () => {
         </IonToolbar>
       </IonHeader>
       <IonContent fullscreen>
-        <IonButton onClick={handleOpenModal}>Add Material</IonButton>
+        <IonButton onClick={handleOpenModal}>Add Required Materials </IonButton>
         <section>
           <IonGrid >
             <IonRow>
@@ -162,15 +164,15 @@ const Tab2: React.FC = () => {
                 return (
                   <IonCol size-xs="12" size-md="4">
 
-                    <IonCard>
+                    <IonCard key={buildNo}>
                       <IonCardHeader>
-                        <IonCardSubtitle key={buildNo}>Building {cardIndex + 1}</IonCardSubtitle>
+                        <IonCardSubtitle >Building {cardIndex + 1}</IonCardSubtitle>
                       </IonCardHeader>
                       <IonCardContent className='list-item-container'>
                         {buildingList[buildNo].map((item) => (
                           <IonChip>
                             <IonAvatar>
-                              <img src={`src/assets/images/${item.name}.png`} alt={item.name} />
+                              <img src={`../assets/images/${item.name}.png`} alt={item.name} />
                             </IonAvatar>
                             <IonLabel>{item.name} x {item.qty}</IonLabel>
                           </IonChip>

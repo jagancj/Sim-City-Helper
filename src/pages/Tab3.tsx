@@ -46,7 +46,12 @@ const Tab3: React.FC = () => {
 
   const handleSubmit = async () => {
     const dexieService = new DexieService();
-    dexieService.addMaterial(selectedValue, quantity, 0);
+    dexieService.addMaterial(selectedValue, quantity, 0).then(id => {
+      if(id) {
+        setSelectedValue('');
+        setQuantity(1);
+      }
+    });
   };
 
   return (

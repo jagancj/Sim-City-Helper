@@ -33,37 +33,44 @@ import '@ionic/react/css/display.css';
 
 /* Theme variables */
 import './theme/variables.css';
+import { useState } from 'react';
 
 setupIonicReact();
 
-const App: React.FC = () => (
-  <IonApp>
+const App: React.FC = () => {
+  const [activeTab, setActiveTab] = useState<string>('home');
+
+  const handleTabChange = (tab: string) => {
+    setActiveTab(tab);
+  };
+  
+  return (<IonApp>
     <IonReactRouter>
       <IonTabs>
         <IonRouterOutlet>
-          <Route exact path="/tab1">
-            <Tab1 />
+          <Route exact path="/home">
+            <Tab1 isActive={activeTab === 'home'} tab='home'/>
           </Route>
-          <Route exact path="/tab2">
+          <Route exact path="/build">
             <Tab2 />
           </Route>
-          <Route path="/tab3">
+          <Route path="/store">
             <Tab3 />
           </Route>
           <Route exact path="/">
-            <Redirect to="/tab1" />
+            <Redirect to="/home" />
           </Route>
         </IonRouterOutlet>
         <IonTabBar slot="bottom">
-          <IonTabButton tab="tab1" href="/tab1">
+          <IonTabButton tab="home" href="/home" onClick={() => handleTabChange('home')}>
             <IonIcon aria-hidden="true" icon={gameController} />
             <IonLabel>Dashboard</IonLabel>
           </IonTabButton>
-          <IonTabButton tab="tab2" href="/tab2">
+          <IonTabButton tab="build" href="/build" onClick={() => handleTabChange('build')}>
             <IonIcon aria-hidden="true" icon={home} />
             <IonLabel>Building</IonLabel>
           </IonTabButton>
-          <IonTabButton tab="tab3" href="/tab3">
+          <IonTabButton tab="store" href="/store" onClick={() => handleTabChange('store')}>
             <IonIcon aria-hidden="true" icon={storefront} />
             <IonLabel>Storage</IonLabel>
           </IonTabButton>
@@ -72,5 +79,6 @@ const App: React.FC = () => (
     </IonReactRouter>
   </IonApp>
 );
+};
 
 export default App;

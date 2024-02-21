@@ -186,7 +186,7 @@
         "unlocked_at": "Level 18",
         "mat_used": {
             "Seeds": "2",
-            "Treesapling": "2"
+            "Tree Saplings": "2"
         },
         "production_time": "72 minutes",
         "msp": "730 Simoleons",
@@ -198,7 +198,7 @@
         "item": "Cream",
         "unlocked_at": "Level 23",
         "mat_used": {
-            "Animalfeed": "1"
+            "Animal Feed": "1"
         },
         "production_time": "60 minutes",
         "msp": "440 Simoleons",
@@ -223,7 +223,7 @@
         "item": "Cheese",
         "unlocked_at": "Level 26",
         "mat_used": {
-            "Animalfeed": "2"
+            "Animal Feed": "2"
         },
         "production_time": "84 minutes",
         "msp": "660 Simoleons",
@@ -235,7 +235,7 @@
         "item": "Beef",
         "unlocked_at": "Level 27",
         "mat_used": {
-            "Animalfeed": "3"
+            "Animal Feed": "3"
         },
         "production_time": "120 minutes",
         "msp": "860 Simoleons",
@@ -398,7 +398,7 @@
         "unlocked_at": "Level 18",
         "mat_used": {
             "Flour Bag": "1",
-            "Sugarspices": "1"
+            "Sugar and Spices": "1"
         },
         "production_time": "36 minutes",
         "msp": "950 Simoleons",
@@ -452,7 +452,7 @@
         "mat_used": {
             "Fruit and Berries": "1",
             "Cream": "1",
-            "Sugarspices": "1"
+            "Sugar and Spices": "1"
         },
         "production_time": "192 minutes",
         "msp": "1,750 Simoleons",
@@ -466,7 +466,7 @@
         "mat_used": {
             "Cream": "1",
             "Seeds": "1",
-            "Sugarspices": "1"
+            "Sugar and Spices": "1"
         },
         "production_time": "48 minutes",
         "msp": "750 Simoleons",
@@ -602,7 +602,7 @@
         "unlocked_at": "Level 37",
         "mat_used": {
             "Glass": "2",
-            "Sugarspices": "2",
+            "Sugar and Spices": "2",
             "Fruit and Berries": "2"
         },
         "production_time": "48 minutes",
@@ -884,7 +884,7 @@
         "mat_used": {
             "Fruit and Berries": "2",
             "Coconut": "2",
-            "Sugarspices": "2"
+            "Sugar and Spices": "2"
         },
         "production_time": "200 minutes",
         "msp": "2,400 Simoleons",

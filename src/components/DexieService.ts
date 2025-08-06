@@ -7,9 +7,13 @@ interface Material {
   requiredQty: number;
 }
 
+// Building interface consolidated from former BuildingService
+// Represents buildings under construction with tracking information
 interface Building {
   id?: number;
-  [key: string]: string | number | undefined;
+  buildNo: number;  // Timestamp-based identifier for grouping related buildings
+  name: string;     // Building name/type
+  qty: number;      // Quantity of this building type in the construction batch
 }
 
 class DexieDB extends Dexie {
@@ -20,7 +24,7 @@ class DexieDB extends Dexie {
     super('SimDatabase');
     this.version(1).stores({
       materials: '++id, mat_name, haveQty, requiredQty',
-      buildings: '++id, &name' // Defining '*' allows for dynamic properties
+      buildings: '++id, buildNo, name, qty' // Building-specific fields for construction tracking
     });
 
     this.materials = this.table('materials');
@@ -28,6 +32,8 @@ class DexieDB extends Dexie {
   }
 }
 
+// Consolidated service for all data access and persistence operations
+// Handles both materials and buildings in a single database
 class DexieService {
   private db: DexieDB;
 

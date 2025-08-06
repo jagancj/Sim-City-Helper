@@ -2,7 +2,6 @@ import { IonAvatar, IonButton, IonCard, IonCardContent, IonCardHeader, IonCardSu
 import './Tab2.css';
 import { useEffect, useState } from 'react';
 import { Item } from './Tab3';
-import BuildingService from '../components/BuildingService';
 import DexieService from '../components/DexieService';
 
 interface ListObject {
@@ -32,8 +31,8 @@ const Tab2: React.FC = () => {
     fetchMaterial();
   }, [refresh]);
   const fetchList = () => {
-    const buildingService = new BuildingService();
-    buildingService.getBuildings().then((list) => {
+    const dexieService = new DexieService();
+    dexieService.getBuildings().then((list) => {
       const groupedData: { [key: number]: ListObject[] } = {};
       // Group objects by buildNo
       for (const obj of list) {
@@ -84,7 +83,6 @@ const Tab2: React.FC = () => {
     setIsModalOpen(false);
   };
   const handleAdd = async () => {
-    const buildingService = new BuildingService();
     const dexieService = new DexieService();
     const timestamp = new Date().getTime();
     const materialData = materialNest;
@@ -105,7 +103,7 @@ const Tab2: React.FC = () => {
         }
       }
       if (bldg.name) {
-        buildingService.addBuilding({ name: bldg.name, buildNo: timestamp, qty: bldg.quantity });
+        dexieService.addBuilding({ name: bldg.name, buildNo: timestamp, qty: bldg.quantity });
       }
     });
     handleCloseModal();
@@ -123,10 +121,9 @@ const Tab2: React.FC = () => {
     setBldgmats(newMaterials);
   };
   const handleComplete = (buildNo: number) => {
-    const buildingService = new BuildingService();
     const dexieService = new DexieService();
     const materialData = materialNest;
-    buildingService.getBuildings().then((listData) => {
+    dexieService.getBuildings().then((listData) => {
       if (listData.length > 0) {
         listData.forEach(bldg => {
           const matItem = materialData.filter((response: { item: string; }) => response.item === bldg.name);
@@ -137,7 +134,7 @@ const Tab2: React.FC = () => {
             }
           }
           if (bldg.id) {
-            buildingService.deleteBuilding(bldg.id);
+            dexieService.deleteBuilding(bldg.id);
           }
         });
       }

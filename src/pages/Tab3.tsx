@@ -1,11 +1,14 @@
-import { IonButton, IonContent, IonHeader, IonInput, IonItem, IonLabel, IonPage, IonSelect, IonSelectOption, IonTitle, IonToolbar } from '@ionic/react';
+import { IonButton, IonContent, IonHeader, IonInput, IonItem, IonLabel, IonPage, IonTitle, IonToolbar } from '@ionic/react';
 import './Tab3.css';
 import { useEffect, useState } from 'react';
 import DexieService from '../components/DexieService';
+import MaterialSelector from '../components/MaterialSelector';
 
 export interface Item {
   img: string;
   material_name: string;
+  category?: string;
+  tier?: number;
 }
 
 const Tab3: React.FC = () => {
@@ -17,7 +20,7 @@ const Tab3: React.FC = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch('../assets/data/materials.json', {
+        const response = await fetch('/assets/data/materials.json', {
           headers: {
             'Content-Type': 'application/json',
             'Accept': 'application/json'
@@ -35,10 +38,6 @@ const Tab3: React.FC = () => {
 
     fetchData();
   }, []);
-
-  const handleSelectChange = (event: CustomEvent) => {
-    setSelectedValue(event.detail.value);
-  };
 
   const handleQuantityChange = (event: CustomEvent) => {
     setQuantity(parseInt(event.detail.value, 10));
@@ -62,23 +61,37 @@ const Tab3: React.FC = () => {
         </IonToolbar>
       </IonHeader>
       <IonContent>
-        <IonItem>
-          <IonLabel>Select Option</IonLabel>
-          <IonSelect value={selectedValue} onIonChange={handleSelectChange}>
-            {data.map((item) => (
-              <IonSelectOption key={item.material_name} value={item.material_name}>
-                {item.material_name}
-              </IonSelectOption>
-            ))}
-          </IonSelect>
-        </IonItem>
+        <div style={{ padding: '16px' }}>
+          <div style={{ marginBottom: '16px' }}>
+            <label style={{ display: 'block', marginBottom: '8px', fontWeight: 'bold' }}>Select Material</label>
+            <MaterialSelector
+              materials={data}
+              selectedMaterial={selectedValue}
+              onSelectionChange={setSelectedValue}
+              placeholder="Choose a material to add..."
+            />
+          </div>
 
-        <IonItem>
-          <IonLabel>Quantity</IonLabel>
-          <IonInput type="number" value={quantity} onIonChange={handleQuantityChange}></IonInput>
-        </IonItem>
+          <IonItem>
+            <IonLabel position="floating">Quantity</IonLabel>
+            <IonInput 
+              type="number" 
+              value={quantity} 
+              onIonChange={handleQuantityChange}
+              min="1"
+            />
+          </IonItem>
 
-        <IonButton type="submit" expand="block" onClick={handleSubmit}>Submit</IonButton>
+          <IonButton 
+            type="submit" 
+            expand="block" 
+            onClick={handleSubmit}
+            style={{ marginTop: '16px' }}
+            disabled={!selectedValue}
+          >
+            Add to Storage
+          </IonButton>
+        </div>
       </IonContent>
     </IonPage>
   );

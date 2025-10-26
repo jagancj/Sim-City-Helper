@@ -252,26 +252,6 @@
       "material_name": "Microwave Oven"
     },
     {
-      "img": "Chocolate Bar.png",
-      "material_name": "Chocolate Bar"
-    },
-    {
-      "img": "Easter Basket.png",
-      "material_name": "Easter Basket"
-    },
-    {
-      "img": "Jelly Beans.png",
-      "material_name": "Jelly Beans"
-    },
-    {
-      "img": "Chocolate Egg.png",
-      "material_name": "Chocolate Egg"
-    },
-    {
-      "img": "Fruit Cake.png",
-      "material_name": "Fruit Cake"
-    },
-    {
       "img": "Crude Oil.png",
       "material_name": "Crude Oil"
     },
@@ -328,8 +308,8 @@
       "material_name": "Robe"
     },
     {
-      "img": "Cocnut Oil.png",
-      "material_name": "Cocnut Oil"
+      "img": "Coconut Oil.png",
+      "material_name": "Coconut Oil"
     },
     {
       "img": "Face Cream.png",
@@ -350,5 +330,141 @@
     {
       "img": "Salmon Sandwich.png",
       "material_name": "Salmon Sandwich"
+    },
+    {
+      "img": "Apple Jam.png",
+      "material_name": "Apple Jam"
+    },
+    {
+      "img": "Box_of_Grapes.png",
+      "material_name": "Box of Grapes"
+    },
+    {
+      "img": "Candy_Cane.png",
+      "material_name": "Candy Cane"
+    },
+    {
+      "img": "Carved_Wood.png",
+      "material_name": "Carved Wood"
+    },
+    {
+      "img": "Chiseled_Stone.png",
+      "material_name": "Chiseled Stone"
+    },
+    {
+      "img": "Chocolate_Bar.png",
+      "material_name": "Chocolate Bar"
+    },
+    {
+      "img": "Chocolate_Egg.png",
+      "material_name": "Chocolate Egg"
+    },
+    {
+      "img": "Churros.png",
+      "material_name": "Churros"
+    },
+    {
+      "img": "Easter_Basket.png",
+      "material_name": "Easter Basket"
+    },
+    {
+      "img": "Farmers_Hayfork.png",
+      "material_name": "Farmer's Hayfork"
+    },
+    {
+      "img": "Football_Shoes.png",
+      "material_name": "Football Shoes"
+    },
+    {
+      "img": "Fruit_Cake.png",
+      "material_name": "Fruit Cake"
+    },
+    {
+      "img": "Game_console.png",
+      "material_name": "Game Console"
+    },
+    {
+      "img": "Gingerbread_Cookies.png",
+      "material_name": "Gingerbread Cookies"
+    },
+    {
+      "img": "Holiday_Decorations.png",
+      "material_name": "Holiday Decorations"
+    },
+    {
+      "img": "Holiday_Ornament.png",
+      "material_name": "Holiday Ornament"
+    },
+    {
+      "img": "Jelly_Beans.png",
+      "material_name": "Jelly Beans"
+    },
+    {
+      "img": "Kite.png",
+      "material_name": "Kite"
+    },
+    {
+      "img": "Letter_blocks.png",
+      "material_name": "Letter Blocks"
+    },
+    {
+      "img": "Mochi.png",
+      "material_name": "Mochi"
+    },
+    {
+      "img": "Pavlova.png",
+      "material_name": "Pavlova"
+    },
+    {
+      "img": "Picnic_Basket.png",
+      "material_name": "Picnic Basket"
+    },
+    {
+      "img": "Ping-Pong_Table.png",
+      "material_name": "Ping-Pong Table"
+    },
+    {
+      "img": "Profiterole.png",
+      "material_name": "Profiterole"
+    },
+    {
+      "img": "Protein_Bar.png",
+      "material_name": "Protein Bar"
+    },
+    {
+      "img": "Sports_Drink.png",
+      "material_name": "Sports Drink"
+    },
+    {
+      "img": "Stained_Glass.png",
+      "material_name": "Stained Glass"
+    },
+    {
+      "img": "Tapestry.png",
+      "material_name": "Tapestry"
+    },
+    {
+      "img": "Teddy_Bear.png",
+      "material_name": "Teddy Bear"
+    },
+    {
+      "img": "Tennis_Racket.png",
+      "material_name": "Tennis Racket"
+    },
+    {
+      "img": "Tiramisu.png",
+      "material_name": "Tiramisu"
+    },
+    {
+      "img": "Toy_Horse.png",
+      "material_name": "Toy Horse"
+    },
+    {
+      "img": "Wool_Shirt.png",
+      "material_name": "Wool Shirt"
+    },
+    {
+      "img": "Wrought_Iron.png",
+      "material_name": "Wrought Iron"
     }
   ]

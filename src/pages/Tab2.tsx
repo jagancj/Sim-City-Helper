@@ -1,8 +1,9 @@
-import { IonAvatar, IonButton, IonCard, IonCardContent, IonCardHeader, IonCardSubtitle, IonChip, IonCol, IonContent, IonGrid, IonHeader, IonIcon, IonInput, IonItem, IonLabel, IonList, IonModal, IonPage, IonRow, IonSelect, IonSelectOption, IonTitle, IonToolbar } from '@ionic/react';
+import { IonAvatar, IonButton, IonCard, IonCardContent, IonCardHeader, IonCardSubtitle, IonChip, IonCol, IonContent, IonGrid, IonHeader, IonIcon, IonInput, IonItem, IonLabel, IonList, IonModal, IonPage, IonRow, IonTitle, IonToolbar } from '@ionic/react';
 import './Tab2.css';
 import { useEffect, useState } from 'react';
 import { Item } from './Tab3';
 import DexieService from '../components/DexieService';
+import MaterialSelector from '../components/MaterialSelector';
 
 interface ListObject {
   buildNo: number;
@@ -186,36 +187,45 @@ const Tab2: React.FC = () => {
         </section>
         <div>
           <IonModal isOpen={isModalOpen}>
-            <IonGrid>
-              {bldgmats.map((mat, index) => (
-                <IonRow key={index}>
-                  <IonCol size="8">
-                    <IonItem>
-                      <IonLabel position="floating">Material</IonLabel>
-                      <IonSelect value={mat.name} onIonChange={(e) => handleMaterialChange(index, e.detail.value)}>
-                        {data.map((item) => (
-                          <IonSelectOption key={item.material_name} value={item.material_name}>
-                            {item.material_name}
-                          </IonSelectOption>
-                        ))}
-                      </IonSelect>
-                    </IonItem>
-                  </IonCol>
-                  <IonCol size="4">
-                    <IonItem>
-                      <IonLabel position="floating">Quantity</IonLabel>
-                      <IonInput type="number" value={mat.quantity} onIonChange={(e) => handleQuantityChange(index, parseInt(e.detail.value!, 10))}></IonInput>
-                    </IonItem>
-                  </IonCol>
-                </IonRow>
-              ))}
-            </IonGrid>
-            <IonButton onClick={handleAdd}>
-              Add to Queue
-            </IonButton>
-            <IonButton onClick={handleCloseModal}>
-              Close
-            </IonButton>
+            <IonHeader>
+              <IonToolbar>
+                <IonTitle>Add Building Materials</IonTitle>
+                <IonButton slot="end" onClick={handleCloseModal}>Close</IonButton>
+              </IonToolbar>
+            </IonHeader>
+            <IonContent>
+              <div style={{ padding: '16px' }}>
+                {bldgmats.map((mat, index) => (
+                  <div key={index} style={{ marginBottom: '16px', paddingBottom: '16px', borderBottom: '1px solid var(--ion-color-medium)' }}>
+                    <div style={{ marginBottom: '8px' }}>
+                      <label style={{ display: 'block', marginBottom: '4px', fontWeight: 'bold' }}>Material {index + 1}</label>
+                      <MaterialSelector
+                        materials={data}
+                        selectedMaterial={mat.name}
+                        onSelectionChange={(materialName) => handleMaterialChange(index, materialName)}
+                        placeholder="Select a material..."
+                      />
+                    </div>
+                    <div>
+                      <IonItem>
+                        <IonLabel position="floating">Quantity</IonLabel>
+                        <IonInput 
+                          type="number" 
+                          value={mat.quantity} 
+                          onIonChange={(e) => handleQuantityChange(index, parseInt(e.detail.value!, 10))}
+                          min="1"
+                        />
+                      </IonItem>
+                    </div>
+                  </div>
+                ))}
+              </div>
+              <div style={{ padding: '16px', display: 'flex', gap: '8px' }}>
+                <IonButton expand="block" onClick={handleAdd} color="success">
+                  Add to Queue
+                </IonButton>
+              </div>
+            </IonContent>
           </IonModal>
         </div>
 

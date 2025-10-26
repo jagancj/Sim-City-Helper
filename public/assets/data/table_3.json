@@ -244,7 +244,7 @@
         "used_in": "Pizza,  Burger"
     },
     {
-        "item": "Chair",
+        "item": "Chairs",
         "unlocked_at": "Level 10",
         "mat_used": {
             "Wood": "2",
@@ -258,7 +258,7 @@
         "used_in": ""
     },
     {
-        "item": "Table",
+        "item": "Tables",
         "unlocked_at": "Level 16",
         "mat_used": {
             "Planks": "1",
@@ -326,7 +326,7 @@
         "used_in": ""
     },
     {
-        "item": "Tree Sapling",
+        "item": "Tree Saplings",
         "unlocked_at": "Level 16",
         "mat_used": {
             "Seeds": "2",
@@ -381,7 +381,7 @@
         "used_in": ""
     },
     {
-        "item": "Garden Gnome",
+        "item": "Garden Gnomes",
         "unlocked_at": "Level 34",
         "mat_used": {
             "Cement": "2",
@@ -547,7 +547,7 @@
         "item": "Ice Cream Sandwich",
         "unlocked_at": "Level 25",
         "mat_used": {
-            "Breadroll": "1",
+            "Bread Roll": "1",
             "Cream": "1"
         },
         "production_time": "11 min 12 secs",
@@ -571,11 +571,11 @@
         "used_in": ""
     },
     {
-        "item": "Burger",
+        "item": "Burgers",
         "unlocked_at": "Level 31",
         "mat_used": {
             "Beef": "1",
-            "Breadroll": "1",
+            "Bread Roll": "1",
             "BBQ Grill": "1"
         },
         "production_time": "28 minutes",
@@ -724,7 +724,7 @@
         "unlocked_at": "Level 35, After Unlocking Green Valley",
         "mat_used": {
             "Recycled Fabric": "3",
-            "Hometextile": "3",
+            "Home Textiles": "3",
             "Paint": "3"
         },
         "production_time": "192 minutes",
@@ -804,7 +804,7 @@
         "item": "Salmon Sandwich",
         "unlocked_at": "Level 35, After Unlocking Frosty Fjords",
         "mat_used": {
-            "Breadroll": "1",
+            "Bread Roll": "1",
             "Fish": "1"
         },
         "production_time": "144 minutes",
@@ -843,7 +843,7 @@
         "item": "Robe",
         "unlocked_at": "Level 35, After Unlocking Limestone Cliffs",
         "mat_used": {
-            "Hometextile": "1",
+            "Home Textiles": "1",
             "Paint": "1",
             "Silk": "1"
         },
@@ -890,6 +890,481 @@
         "msp": "2,400 Simoleons",
         "spm": "12 Simoleons",
         "produced_in": "Tropical Products Store",
+        "used_in": ""
+    },
+    {
+        "item": "Tennis Racket",
+        "unlocked_at": "Level 35",
+        "mat_used": {
+            "Minerals": "4",
+            "Hammer": "2"
+        },
+        "production_time": "36 minutes",
+        "msp": "780 Simoleons",
+        "spm": "21.67 Simoleons",
+        "produced_in": "Sports Shop",
+        "used_in": ""
+    },
+    {
+        "item": "Kite",
+        "unlocked_at": "Level 40",
+        "mat_used": {
+            "Home Textiles": "2",
+            "Planks": "2",
+            "Paint": "2"
+        },
+        "production_time": "60 minutes",
+        "msp": "1,000 Simoleons",
+        "spm": "16.66 Simoleons",
+        "produced_in": "Toy Shop",
+        "used_in": ""
+    },
+    {
+        "item": "Game Console",
+        "unlocked_at": "Level 58",
+        "mat_used": {
+            "Lighting System": "1",
+            "Glass": "3",
+            "Electrical Components": "3"
+        },
+        "production_time": "60 minutes",
+        "msp": "2,240 Simoleons",
+        "spm": "37.33 Simoleons",
+        "produced_in": "Toy Shop",
+        "used_in": ""
+    },
+    {
+        "item": "Wool Shirt",
+        "unlocked_at": "Level 50",
+        "mat_used": {
+            "Textiles": "4",
+            "Measuring Tape": "2",
+            "Paint": "2"
+        },
+        "production_time": "60 minutes",
+        "msp": "1,700 Simoleons",
+        "spm": "28.33 Simoleons",
+        "produced_in": "Country Store",
+        "used_in": ""
+    },
+    {
+        "item": "Apple Jam",
+        "unlocked_at": "Level 73",
+        "mat_used": {
+            "Seeds": "4",
+            "Glass": "2",
+            "Flour Bag": "4"
+        },
+        "production_time": "48 minutes",
+        "msp": "3,700 Simoleons",
+        "spm": "77.08 Simoleons",
+        "produced_in": "Country Store",
+        "used_in": ""
+    },
+    {
+        "item": "Box of Grapes",
+        "unlocked_at": "Level 42",
+        "mat_used": {
+            "Fruit and Berries": "3",
+            "Glass": "2",
+            "Sugar and Spices": "2"
+        },
+        "production_time": "40 minutes",
+        "msp": "1,200 Simoleons",
+        "spm": "30 Simoleons",
+        "produced_in": "Bakery",
+        "used_in": ""
+    },
+    {
+        "item": "Chocolate Bar",
+        "unlocked_at": "Level 45",
+        "mat_used": {
+            "Sugar and Spices": "3",
+            "Chemicals": "2",
+            "Cream": "2"
+        },
+        "production_time": "36 minutes",
+        "msp": "1,400 Simoleons",
+        "spm": "38.88 Simoleons",
+        "produced_in": "Bakery",
+        "used_in": ""
+    },
+    {
+        "item": "Churros",
+        "unlocked_at": "Level 48",
+        "mat_used": {
+            "Flour Bag": "3",
+            "Sugar and Spices": "3",
+            "Cooking Utensils": "2"
+        },
+        "production_time": "44 minutes",
+        "msp": "1,600 Simoleons",
+        "spm": "36.36 Simoleons",
+        "produced_in": "Bakery",
+        "used_in": ""
+    },
+    {
+        "item": "Profiterole",
+        "unlocked_at": "Level 55",
+        "mat_used": {
+            "Flour Bag": "3",
+            "Cream": "3",
+            "Sugar and Spices": "2"
+        },
+        "production_time": "52 minutes",
+        "msp": "1,900 Simoleons",
+        "spm": "36.53 Simoleons",
+        "produced_in": "Bakery",
+        "used_in": ""
+    },
+    {
+        "item": "Tiramisu",
+        "unlocked_at": "Level 60",
+        "mat_used": {
+            "Cream": "3",
+            "Sugar and Spices": "3",
+            "Coffee": "2"
+        },
+        "production_time": "48 minutes",
+        "msp": "2,200 Simoleons",
+        "spm": "45.83 Simoleons",
+        "produced_in": "Bakery",
+        "used_in": ""
+    },
+    {
+        "item": "Pavlova",
+        "unlocked_at": "Level 50",
+        "mat_used": {
+            "Cream": "4",
+            "Sugar and Spices": "3",
+            "Flour Bag": "2"
+        },
+        "production_time": "44 minutes",
+        "msp": "1,800 Simoleons",
+        "spm": "40.90 Simoleons",
+        "produced_in": "Bakery",
+        "used_in": ""
+    },
+    {
+        "item": "Mochi",
+        "unlocked_at": "Level 52",
+        "mat_used": {
+            "Sugar and Spices": "3",
+            "Flour Bag": "3",
+            "Cream": "2"
+        },
+        "production_time": "40 minutes",
+        "msp": "1,500 Simoleons",
+        "spm": "37.5 Simoleons",
+        "produced_in": "Bakery",
+        "used_in": ""
+    },
+    {
+        "item": "Fruit Cake",
+        "unlocked_at": "Level 58",
+        "mat_used": {
+            "Fruit and Berries": "4",
+            "Flour Bag": "3",
+            "Cream": "2"
+        },
+        "production_time": "48 minutes",
+        "msp": "2,000 Simoleons",
+        "spm": "41.66 Simoleons",
+        "produced_in": "Bakery",
+        "used_in": ""
+    },
+    {
+        "item": "Jelly Beans",
+        "unlocked_at": "Level 38",
+        "mat_used": {
+            "Sugar and Spices": "4",
+            "Corn": "2",
+            "Chemicals": "1"
+        },
+        "production_time": "32 minutes",
+        "msp": "900 Simoleons",
+        "spm": "28.13 Simoleons",
+        "produced_in": "Candy Store",
+        "used_in": ""
+    },
+    {
+        "item": "Candy Cane",
+        "unlocked_at": "Level 42",
+        "mat_used": {
+            "Sugar and Spices": "3",
+            "Chemicals": "2",
+            "Cream": "1"
+        },
+        "production_time": "28 minutes",
+        "msp": "800 Simoleons",
+        "spm": "28.57 Simoleons",
+        "produced_in": "Candy Store",
+        "used_in": ""
+    },
+    {
+        "item": "Chocolate Egg",
+        "unlocked_at": "Level 50",
+        "mat_used": {
+            "Sugar and Spices": "4",
+            "Cream": "3",
+            "Chemicals": "2"
+        },
+        "production_time": "44 minutes",
+        "msp": "1,600 Simoleons",
+        "spm": "36.36 Simoleons",
+        "produced_in": "Candy Store",
+        "used_in": ""
+    },
+    {
+        "item": "Gingerbread Cookies",
+        "unlocked_at": "Level 45",
+        "mat_used": {
+            "Flour Bag": "3",
+            "Sugar and Spices": "3",
+            "Spices": "2"
+        },
+        "production_time": "40 minutes",
+        "msp": "1,400 Simoleons",
+        "spm": "35 Simoleons",
+        "produced_in": "Bakery",
+        "used_in": ""
+    },
+    {
+        "item": "Protein Bar",
+        "unlocked_at": "Level 46",
+        "mat_used": {
+            "Flour Bag": "2",
+            "Sugar and Spices": "3",
+            "Animal Feed": "2"
+        },
+        "production_time": "32 minutes",
+        "msp": "1,100 Simoleons",
+        "spm": "34.37 Simoleons",
+        "produced_in": "Sports Nutrition Store",
+        "used_in": ""
+    },
+    {
+        "item": "Sports Drink",
+        "unlocked_at": "Level 44",
+        "mat_used": {
+            "Fruit and Berries": "3",
+            "Sugar and Spices": "2",
+            "Chemicals": "1"
+        },
+        "production_time": "28 minutes",
+        "msp": "950 Simoleons",
+        "spm": "33.93 Simoleons",
+        "produced_in": "Sports Nutrition Store",
+        "used_in": ""
+    },
+    {
+        "item": "Football Shoes",
+        "unlocked_at": "Level 48",
+        "mat_used": {
+            "Textiles": "3",
+            "Glue": "2",
+            "Paint": "2"
+        },
+        "production_time": "36 minutes",
+        "msp": "1,200 Simoleons",
+        "spm": "33.33 Simoleons",
+        "produced_in": "Sporting Goods Store",
+        "used_in": ""
+    },
+    {
+        "item": "Letter Blocks",
+        "unlocked_at": "Level 42",
+        "mat_used": {
+            "Planks": "3",
+            "Paint": "2",
+            "Glue": "2"
+        },
+        "production_time": "40 minutes",
+        "msp": "1,100 Simoleons",
+        "spm": "27.5 Simoleons",
+        "produced_in": "Toy Shop",
+        "used_in": ""
+    },
+    {
+        "item": "Teddy Bear",
+        "unlocked_at": "Level 44",
+        "mat_used": {
+            "Textiles": "3",
+            "String": "2",
+            "Glue": "1"
+        },
+        "production_time": "36 minutes",
+        "msp": "1,000 Simoleons",
+        "spm": "27.77 Simoleons",
+        "produced_in": "Toy Shop",
+        "used_in": ""
+    },
+    {
+        "item": "Toy Horse",
+        "unlocked_at": "Level 50",
+        "mat_used": {
+            "Planks": "4",
+            "Paint": "2",
+            "Glue": "2"
+        },
+        "production_time": "44 minutes",
+        "msp": "1,400 Simoleons",
+        "spm": "31.82 Simoleons",
+        "produced_in": "Toy Shop",
+        "used_in": ""
+    },
+    {
+        "item": "Ping-Pong Table",
+        "unlocked_at": "Level 52",
+        "mat_used": {
+            "Planks": "5",
+            "Paint": "3",
+            "Nails": "3"
+        },
+        "production_time": "56 minutes",
+        "msp": "2,000 Simoleons",
+        "spm": "35.71 Simoleons",
+        "produced_in": "Sports Venue",
+        "used_in": ""
+    },
+    {
+        "item": "Picnic Basket",
+        "unlocked_at": "Level 46",
+        "mat_used": {
+            "Planks": "3",
+            "Textiles": "2",
+            "Glue": "2"
+        },
+        "production_time": "40 minutes",
+        "msp": "1,200 Simoleons",
+        "spm": "30 Simoleons",
+        "produced_in": "Furniture Store",
+        "used_in": ""
+    },
+    {
+        "item": "Tapestry",
+        "unlocked_at": "Level 44",
+        "mat_used": {
+            "Textiles": "3",
+            "Paint": "2",
+            "String": "1"
+        },
+        "production_time": "36 minutes",
+        "msp": "1,100 Simoleons",
+        "spm": "30.55 Simoleons",
+        "produced_in": "Furniture Store",
+        "used_in": ""
+    },
+    {
+        "item": "Holiday Decorations",
+        "unlocked_at": "Level 40",
+        "mat_used": {
+            "Glass": "2",
+            "Paint": "3",
+            "Textiles": "2"
+        },
+        "production_time": "40 minutes",
+        "msp": "1,200 Simoleons",
+        "spm": "30 Simoleons",
+        "produced_in": "Holiday Store",
+        "used_in": ""
+    },
+    {
+        "item": "Holiday Ornament",
+        "unlocked_at": "Level 44",
+        "mat_used": {
+            "Glass": "3",
+            "Paint": "2",
+            "String": "2"
+        },
+        "production_time": "36 minutes",
+        "msp": "1,100 Simoleons",
+        "spm": "30.55 Simoleons",
+        "produced_in": "Holiday Store",
+        "used_in": ""
+    },
+    {
+        "item": "Easter Basket",
+        "unlocked_at": "Level 36",
+        "mat_used": {
+            "Planks": "2",
+            "Paint": "2",
+            "Textiles": "2"
+        },
+        "production_time": "32 minutes",
+        "msp": "900 Simoleons",
+        "spm": "28.13 Simoleons",
+        "produced_in": "Holiday Store",
+        "used_in": ""
+    },
+    {
+        "item": "Carved Wood",
+        "unlocked_at": "Level 38",
+        "mat_used": {
+            "Planks": "3",
+            "Hammer": "2",
+            "Drill": "1"
+        },
+        "production_time": "40 minutes",
+        "msp": "1,100 Simoleons",
+        "spm": "27.5 Simoleons",
+        "produced_in": "Woodcraft Store",
+        "used_in": ""
+    },
+    {
+        "item": "Wrought Iron",
+        "unlocked_at": "Level 42",
+        "mat_used": {
+            "Metal": "4",
+            "Nails": "3",
+            "Chemicals": "2"
+        },
+        "production_time": "44 minutes",
+        "msp": "1,400 Simoleons",
+        "spm": "31.82 Simoleons",
+        "produced_in": "Metalwork Store",
+        "used_in": ""
+    },
+    {
+        "item": "Chiseled Stone",
+        "unlocked_at": "Level 40",
+        "mat_used": {
+            "Minerals": "4",
+            "Nails": "2",
+            "Hammer": "1"
+        },
+        "production_time": "40 minutes",
+        "msp": "1,100 Simoleons",
+        "spm": "27.5 Simoleons",
+        "produced_in": "Stone Carving Studio",
+        "used_in": ""
+    },
+    {
+        "item": "Stained Glass",
+        "unlocked_at": "Level 46",
+        "mat_used": {
+            "Glass": "4",
+            "Paint": "3",
+            "Chemicals": "1"
+        },
+        "production_time": "48 minutes",
+        "msp": "1,600 Simoleons",
+        "spm": "33.33 Simoleons",
+        "produced_in": "Glass Art Studio",
+        "used_in": ""
+    },
+    {
+        "item": "Farmer's Hayfork",
+        "unlocked_at": "Level 36",
+        "mat_used": {
+            "Planks": "2",
+            "Metal": "2",
+            "Nails": "2"
+        },
+        "production_time": "32 minutes",
+        "msp": "900 Simoleons",
+        "spm": "28.13 Simoleons",
+        "produced_in": "Farm Supply Store",
         "used_in": ""
     }
 ]

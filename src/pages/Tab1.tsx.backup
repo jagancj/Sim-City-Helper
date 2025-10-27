@@ -1,0 +1,276 @@
+import React, { useEffect, useState } from 'react';
+import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar, IonCard, IonCardContent, IonCardHeader, IonIcon, IonSpinner, IonSegment, IonSegmentButton, IonLabel, IonBadge } from '@ionic/react';
+import { timeOutline, cubeOutline } from 'ionicons/icons';
+import DexieService from '../components/DexieService';
+import './Tab1.css';
+
+interface TabProps {
+  tab: string;
+  isActive: boolean; 
+}
+
+interface Material {
+  id: number;
+  mat_name: string;
+  haveQty: number;
+  requiredQty: number;
+}
+
+interface MaterialInfo {
+  material_name: string;
+  unlocked_at: string;
+  production_time: string;
+  msp: string;
+  spm: string;
+  used_in: string;
+}
+
+const Tab1: React.FC<TabProps> = ({isActive}) => {
+  const [materials, setMaterials] = useState<any[]>([]);
+  const [rawMaterial, setRawMaterials] = useState<any[]>([]);
+  const [isLoading, setIsLoading] = useState<boolean>(true);
+  const [selectedTab, setSelectedTab] = useState<'raw' | 'shop'>('raw');
+  const [materialInfo, setMaterialInfo] = useState<{ [key: string]: MaterialInfo }>({});
+
+  useEffect(() => {
+    if(isActive) fetchList();
+  }, [isActive]);
+
+  const fetchList = () => {
+    const dexieService = new DexieService();
+    dexieService.getMaterials().then((materials) => {
+      Promise.all([
+        fetch('/assets/data/table_1.json', {
+          headers: {
+            'Content-Type': 'application/json',
+            'Accept': 'application/json'
+          }
+        }).then(response => response.json()),
+        fetch('/assets/data/materials.json', {
+          headers: {
+            'Content-Type': 'application/json',
+            'Accept': 'application/json'
+          }
+        }).then(response => response.json())
+      ]).then(([table1Data, materialsData]) => {
+        const { matchingObjects, remainingObjects } = findRawMatObjects(table1Data, materials);
+        
+        // Create material info lookup
+        const infoMap: { [key: string]: MaterialInfo } = {};
+        table1Data.forEach((item: MaterialInfo) => {
+          infoMap[item.material_name] = item;
+        });
+        
+        setMaterials(remainingObjects);
+        setRawMaterials(matchingObjects);
+        setMaterialInfo(infoMap);
+        setIsLoading(false);
+      })
+      .catch(error => {
+        console.error('Error fetching data:', error);
+        setIsLoading(false);
+      });
+    }).catch(error => {
+      console.error('Error fetching materials:', error);
+      setIsLoading(false);
+    });
+  }
+
+  const findRawMatObjects = (arr1: any[], arr2: any[]): { matchingObjects: any[], remainingObjects: any[] } => {
+    const matchingObjects: any[] = [];
+    const remainingObjects: any[] = [...arr2];
+    for (const obj1 of arr1) {
+      const matchingObjIndex = remainingObjects.findIndex((obj2: { mat_name: string; }) => obj2.mat_name === obj1.material_name);
+      if (matchingObjIndex !== -1) {
+        const matchingObj = remainingObjects.splice(matchingObjIndex, 1)[0];
+        matchingObjects.push(matchingObj);
+      }
+    }
+    return { matchingObjects, remainingObjects };
+  };
+
+  const getProductionTime = (materialName: string) => {
+    const info = materialInfo[materialName];
+    return info?.production_time || 'N/A';
+  };
+
+  const currentMaterials = selectedTab === 'raw' ? rawMaterial : materials;
+
+  const getMaterialStatus = (have: number, required: number) => {
+    if (have >= required) return 'complete';
+    if (have > 0) return 'partial';
+    return 'needed';
+  };
+
+  const getStatusColor = (status: string) => {
+    switch(status) {
+      case 'complete': return '#4CAF50'; // Green
+      case 'partial': return '#FF9800';  // Orange
+      case 'needed': return '#f44336';   // Red
+      default: return '#999999';
+    }
+  };
+
+  const getRemainingQty = (have: number, required: number) => {
+    const remaining = have - required;
+    return remaining;
+  };
+
+  if (isLoading) {
+    return (
+      <IonPage>
+        <IonHeader>
+          <IonToolbar>
+            <IonTitle>Material Dashboard</IonTitle>
+          </IonToolbar>
+        </IonHeader>
+        <IonContent fullscreen>
+          <div className="loading-container">
+            <IonSpinner name="crescent" />
+            <p>Loading materials...</p>
+          </div>
+        </IonContent>
+      </IonPage>
+    );
+  }
+
+  return (
+    <IonPage>
+      <IonHeader>
+        <IonToolbar>
+          <IonTitle>Material Dashboard</IonTitle>
+        </IonToolbar>
+      </IonHeader>
+      <IonContent fullscreen className="tab1-content">
+        <div className="tab1-wrapper">
+          {/* Tab Selector */}
+          <div className="tab-selector">
+          <IonSegment value={selectedTab} onIonChange={(e) => setSelectedTab(e.detail.value as 'raw' | 'shop')}>
+            <IonSegmentButton value="raw">
+              <IonIcon icon={cubeOutline} />
+              <IonLabel>Raw Materials ({rawMaterial.length})</IonLabel>
+            </IonSegmentButton>
+            <IonSegmentButton value="shop">
+              <IonIcon icon={cubeOutline} />
+              <IonLabel>Shop Materials ({materials.length})</IonLabel>
+            </IonSegmentButton>
+          </IonSegment>
+        </div>
+
+        {/* Summary Cards */}
+        <div className="summary-section">
+          <IonCard className="summary-card">
+            <IonCardContent>
+              <div className="summary-stat">
+                <div className="stat-value">{currentMaterials.length}</div>
+                <div className="stat-label">Total Items</div>
+              </div>
+            </IonCardContent>
+          </IonCard>
+          <IonCard className="summary-card">
+            <IonCardContent>
+              <div className="summary-stat">
+                <div className="stat-value">{currentMaterials.reduce((sum: number, m: any) => sum + (m.haveQty || 0), 0)}</div>
+                <div className="stat-label">In Stock</div>
+              </div>
+            </IonCardContent>
+          </IonCard>
+          <IonCard className="summary-card">
+            <IonCardContent>
+              <div className="summary-stat">
+                <div className="stat-value">{currentMaterials.reduce((sum: number, m: any) => sum + (m.requiredQty || 0), 0)}</div>
+                <div className="stat-label">Required</div>
+              </div>
+            </IonCardContent>
+          </IonCard>
+        </div>
+
+        {/* Materials Grid */}
+        <div className="materials-container">
+          {currentMaterials.length === 0 ? (
+            <IonCard>
+              <IonCardContent>
+                <div className="empty-state">
+                  <IonIcon icon={cubeOutline} size="large" />
+                  <p>No materials available</p>
+                </div>
+              </IonCardContent>
+            </IonCard>
+          ) : (
+            <div className="materials-grid">
+              {currentMaterials.map((mat: Material) => {
+                const status = getMaterialStatus(mat.haveQty, mat.requiredQty);
+                const remaining = getRemainingQty(mat.haveQty, mat.requiredQty);
+                const prodTime = getProductionTime(mat.mat_name);
+                
+                return (
+                  <IonCard key={mat.id} className={`material-card material-${status}`}>
+                    <IonCardHeader>
+                      <div className="card-header">
+                        <img
+                          src={`/assets/images/${mat.mat_name}.png`}
+                          alt={mat.mat_name}
+                          className="material-image"
+                          onError={(e) => {
+                            (e.target as HTMLImageElement).style.display = 'none';
+                          }}
+                        />
+                        <div className="header-info">
+                          <h3>{mat.mat_name}</h3>
+                          <IonBadge color={status === 'complete' ? 'success' : status === 'partial' ? 'warning' : 'danger'}>
+                            {status.toUpperCase()}
+                          </IonBadge>
+                        </div>
+                      </div>
+                    </IonCardHeader>
+                    <IonCardContent>
+                      {/* Stats Grid */}
+                      <div className="stats-grid">
+                        <div className="stat">
+                          <span className="stat-title">Have</span>
+                          <span className="stat-value have">{mat.haveQty}</span>
+                        </div>
+                        <div className="stat">
+                          <span className="stat-title">Required</span>
+                          <span className="stat-value required">{mat.requiredQty}</span>
+                        </div>
+                        <div className="stat">
+                          <span className="stat-title">Remaining</span>
+                          <span className={`stat-value remaining ${remaining < 0 ? 'negative' : 'positive'}`}>
+                            {remaining < 0 ? remaining : '+' + remaining}
+                          </span>
+                        </div>
+                      </div>
+
+                      {/* Production Time */}
+                      <div className="production-info">
+                        <IonIcon icon={timeOutline} />
+                        <span className="prod-time">
+                          {prodTime === 'N/A' ? 'Production time: N/A' : `Prod Time: ${prodTime}`}
+                        </span>
+                      </div>
+
+                      {/* Progress Bar */}
+                      <div className="progress-bar-container">
+                        <div 
+                          className="progress-bar" 
+                          style={{
+                            width: `${Math.min((mat.haveQty / mat.requiredQty) * 100, 100)}%`,
+                            backgroundColor: getStatusColor(status)
+                          }}
+                        />
+                      </div>
+                    </IonCardContent>
+                  </IonCard>
+                );
+              })}
+            </div>
+          )}
+        </div>
+        </div>
+      </IonContent>
+    </IonPage>
+  );
+};
+
+export default Tab1;

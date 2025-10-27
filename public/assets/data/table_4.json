@@ -27,7 +27,7 @@
         "mat_used": {
             "Recycled Fabric": "2",
             "Glue": "2",
-            "Measuringtape": "2"
+            "Measuring Tape": "2"
         },
         "production_time": "96 minutes",
         "msp": "750 Simoleons",
@@ -40,8 +40,8 @@
         "unlocked_at": "Level 35, After Unlocking Green Valley",
         "mat_used": {
             "Recycled Fabric": "3",
-            "Hometextile": "3",
-            "Paintbucket": "3"
+            "Home Textiles": "3",
+            "Paint": "3"
         },
         "production_time": "192 minutes",
         "msp": "2,000 Simoleons",
@@ -120,7 +120,7 @@
         "item": "Salmon Sandwich",
         "unlocked_at": "Level 35, After Unlocking Frosty Fjords",
         "mat_used": {
-            "Breadroll": "1",
+            "Bread Roll": "1",
             "Fish": "1"
         },
         "production_time": "144 minutes",
@@ -159,8 +159,8 @@
         "item": "Robe",
         "unlocked_at": "Level 35, After Unlocking Limestone Cliffs",
         "mat_used": {
-            "Hometextile": "1",
-            "Paintbucket": "1",
+            "Home Textiles": "1",
+            "Paint": "1",
             "Silk": "1"
         },
         "production_time": "192 minutes",
@@ -198,9 +198,9 @@
         "item": "Tropical Drink",
         "unlocked_at": "Level 35, After Unlocking Sunny Isles",
         "mat_used": {
-            "Fruit and Berries ": "2",
+            "Fruit and Berries": "2",
             "Coconut": "2",
-            "Sugarspices": "2"
+            "Sugar and Spices": "2"
         },
         "production_time": "200 minutes",
         "msp": "2,400 Simoleons",

@@ -12,7 +12,7 @@ interface TabProps {
 }
 
 interface Material {
-  id: number;
+  id?: number;
   mat_name: string;
   haveQty: number;
   requiredQty: number;
@@ -110,7 +110,7 @@ const Tab1: React.FC<TabProps> = ({isActive}) => {
         const rawMats: Material[] = [];
         const shopMats: Material[] = [];
 
-        materials.forEach((mat: Material) => {
+        materials.forEach(mat => {
           if (infoMap[mat.mat_name]) {
             rawMats.push(mat);
           } else {

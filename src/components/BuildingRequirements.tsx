@@ -183,7 +183,7 @@ const BuildingRequirements: React.FC<BuildingRequirementsProps> = ({ onRequireme
     // Show a quantity prompt or use a state-based quantity input
     const quantity = selectedMaterialQuantity;
     
-    const existingReq = formData.materialRequirements?.find((req: any) => req.materialName === materialName);
+    const existingReq = formData.materialRequirements?.find((req: MaterialRequirement) => req.materialName === materialName);
     const material = materials.find(m => m.material_name === materialName);
     
     if (existingReq) {

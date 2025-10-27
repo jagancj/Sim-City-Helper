@@ -3,6 +3,9 @@ import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar } from '@ionic/rea
 import DexieService from '../components/DexieService';
 import './Tab1.css';
 
+// Constants
+const HEADER_ROW_MATERIAL_NAME = 'Material';
+
 interface TabProps {
   tab: string;
   isActive: boolean; 
@@ -98,7 +101,7 @@ const Tab1: React.FC<TabProps> = ({isActive}) => {
         // Create material info lookup
         const infoMap: { [key: string]: MaterialInfo } = {};
         table1Data.forEach((item: MaterialInfo) => {
-          if (item.material_name && item.material_name !== 'Material') {
+          if (item.material_name && item.material_name !== HEADER_ROW_MATERIAL_NAME) {
             infoMap[item.material_name] = item;
           }
         });
@@ -349,7 +352,7 @@ const Tab1: React.FC<TabProps> = ({isActive}) => {
             <div className="materials-grid-unified">
               {filteredMaterials.map((mat) => {
                 const percentage = getPercentage(mat.haveQty, mat.requiredQty);
-                const remaining = mat.requiredQty - mat.haveQty;
+                const shortage = mat.requiredQty - mat.haveQty;
 
                 return (
                   <div key={mat.name} className={`material-card-unified status-${mat.status}`}>
@@ -395,8 +398,8 @@ const Tab1: React.FC<TabProps> = ({isActive}) => {
                       <div className="qty-divider">≡</div>
                       <div className="qty-item">
                         <span className="qty-label">Left</span>
-                        <span className={`qty-value remaining-qty ${remaining <= 0 ? 'positive' : 'negative'}`}>
-                          {remaining <= 0 ? '+' + Math.abs(remaining) : remaining}
+                        <span className={`qty-value remaining-qty ${shortage <= 0 ? 'positive' : 'negative'}`}>
+                          {shortage <= 0 ? '+' + Math.abs(shortage) : shortage}
                         </span>
                       </div>
                     </div>

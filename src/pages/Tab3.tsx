@@ -7,8 +7,6 @@ import MaterialSelector from '../components/MaterialSelector';
 export interface Item {
   img: string;
   material_name: string;
-  category?: string;
-  tier?: number;
 }
 
 const Tab3: React.FC = () => {

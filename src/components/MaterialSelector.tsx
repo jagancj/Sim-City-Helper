@@ -84,8 +84,17 @@ const MaterialSelector: React.FC<MaterialSelectorProps> = ({
   }, [isOpen]);
 
   // Early return after all hooks
-  if (!materials || !Array.isArray(materials) || materials.length === 0) {
+  // Early return checks with specific error messages
+  if (materials == null) {
     return <div className="selector-trigger empty">Loading materials...</div>;
+  }
+  
+  if (!Array.isArray(materials)) {
+    return <div className="selector-trigger empty">Error loading materials</div>;
+  }
+  
+  if (materials.length === 0) {
+    return <div className="selector-trigger empty">No materials available</div>;
   }
 
   const filteredMaterials = materials.filter(material =>
@@ -101,8 +110,9 @@ const MaterialSelector: React.FC<MaterialSelectorProps> = ({
   };
 
   const getImagePath = (imageName: string) => {
-    const cleanName = imageName.replace(/\.(png|jpg|jpeg|webp)$/i, '');
-    return `/assets/images/${cleanName}.png`;
+    // If imageName already has an extension, use as-is; otherwise, default to .png
+    const hasExtension = /\.[a-zA-Z0-9]+$/.test(imageName);
+    return `/assets/images/${hasExtension ? imageName : imageName + '.png'}`;
   };
 
   return (
